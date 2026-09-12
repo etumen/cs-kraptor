@@ -1,0 +1,8 @@
+{
+  "name": "Kraptor Repair Batch 1 | etumen",
+  "description": "Güncel test paketi: Ddizi, AnimeciX, FilmMakinesi, HDFilmCehennemi",
+  "manifestVersion": 1,
+  "pluginLists": [
+    "https://raw.githubusercontent.com/etumen/cs-kraptor/fix/provider-batch1-20260913/plugins-batch1-test.json"
+  ]
+}

@@ -1,0 +1,87 @@
+[
+  {
+    "url": "https://raw.githubusercontent.com/etumen/cs-kraptor/fix/provider-batch1-20260913/AnimeciX.cs3",
+    "status": 1,
+    "version": 21,
+    "name": "AnimeciX",
+    "internalName": "AnimeciX",
+    "authors": [
+      "keyiflerolsun",
+      "inatchii",
+      "JustRelaxable"
+    ],
+    "description": "AnimeciX, animeleri keşfedebileceğiniz ve animeler hakkında her şeyi öğrenebileceğiniz bir paylaşım platformudur.",
+    "fileSize": 26561,
+    "repositoryUrl": "https://github.com/etumen/cs-kraptor",
+    "language": "tr",
+    "tvTypes": [
+      "Anime"
+    ],
+    "iconUrl": "https://animecix.tv/favicon.ico",
+    "apiVersion": 1,
+    "fileHash": "sha256-63a0b89a612fb5820898dcf02e73d8b8d9b558f5f0d8ccd7ab15fce2217cd89f"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/etumen/cs-kraptor/fix/provider-batch1-20260913/Ddizi.cs3",
+    "status": 1,
+    "version": 22,
+    "name": "Ddizi",
+    "internalName": "Ddizi",
+    "authors": [
+      "keyiflerolsun"
+    ],
+    "description": "DDizi.im için Cloudstream eklentisi",
+    "fileSize": 20110,
+    "repositoryUrl": "https://github.com/etumen/cs-kraptor",
+    "language": "tr",
+    "tvTypes": [
+      "TvSeries"
+    ],
+    "iconUrl": "https://www.ddizi.im/favicon.ico",
+    "apiVersion": 1,
+    "fileHash": "sha256-47e75d5eb583ed98fb54324a73028da5f35775e910f3e6a5e78cd00effa786a9"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/etumen/cs-kraptor/fix/provider-batch1-20260913/FilmMakinesi.cs3",
+    "status": 1,
+    "version": 59,
+    "name": "FilmMakinesi",
+    "internalName": "FilmMakinesi",
+    "authors": [
+      "keyiflerolsun",
+      "usdogu"
+    ],
+    "description": "Film Makinesi, en yeni ve en güncel filmleri sitemizde full HD kalite farkı ile izleyebilirsiniz. HD film izle denildiğinde akla gelen en kaliteli film izleme sitesi.",
+    "fileSize": 32902,
+    "repositoryUrl": "https://github.com/etumen/cs-kraptor",
+    "language": "tr",
+    "tvTypes": [
+      "Movie"
+    ],
+    "iconUrl": "https://www.google.com/s2/favicons?domain=filmmakinesi.film&sz=%size%",
+    "apiVersion": 1,
+    "fileHash": "sha256-96c3e3784c270d960ab3207e618c3306214466a1f2225af66cd7c6fdb15b02ff"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/etumen/cs-kraptor/fix/provider-batch1-20260913/HDFilmCehennemi.cs3",
+    "status": 1,
+    "version": 48,
+    "name": "HDFilmCehennemi",
+    "internalName": "HDFilmCehennemi",
+    "authors": [
+      "hexated",
+      "keyiflerolsun"
+    ],
+    "description": "Türkiye'nin en hızlı hd film izleme sitesi",
+    "fileSize": 31661,
+    "repositoryUrl": "https://github.com/etumen/cs-kraptor",
+    "language": "tr",
+    "tvTypes": [
+      "Movie",
+      "TvSeries"
+    ],
+    "iconUrl": "https://www.google.com/s2/favicons?domain=hdfilmcehennemi.com&sz=%size%",
+    "apiVersion": 1,
+    "fileHash": "sha256-d3edf0a3cce476d7a5b850950c0fe467102cfacc890da86c5fc39eaecd470c86"
+  }
+]
