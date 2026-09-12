@@ -1,0 +1,9 @@
+﻿{
+  "iconUrl": "https://raw.githubusercontent.com/etumen/cs-kraptor/refs/heads/master/.github/icons/logo/kraptorfavicon.png",
+  "name": "Kraptor Curated | etumen",
+  "description": "Az ama güçlü kaynaklar: cihazda doğrulanan sağlayıcılar + geniş kataloglu dizi adayları.",
+  "manifestVersion": 1,
+  "pluginLists": [
+    "https://raw.githubusercontent.com/etumen/cs-kraptor/master/plugins-curated.json"
+  ]
+}
