@@ -1,0 +1,11 @@
+{
+  "sourceRepository": "recloudstream/cloudstream",
+  "sourceHead": "99ce06ddc021330d5ea14117a434a03f62e6a06b",
+  "releasePublishedAt": "2026-09-12T11:56:54Z",
+  "apiJarSha256": "e76bc931d3949dd66b3cba47e5ee04c83e50526bc4a070dbbec837b3ebb58ea5",
+  "sourceCompilation": "PASS",
+  "searchCompatibility": "MainAPI.search(query,page) delegates to search(query)",
+  "runtimeCompatibility": "NOT TESTED on Android",
+  "baselineKotlinMetadata": "2.3.0",
+  "compiler": "2.3.0"
+}

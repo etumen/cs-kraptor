@@ -3,3 +3,8 @@
 !build/**/
 build/*
 !build/**/*.cs3
+!recovery/
+!recovery/**
+recovery/.cache/
+recovery/.build/
+recovery/**/__pycache__/
