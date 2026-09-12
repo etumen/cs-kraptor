@@ -1,0 +1,9 @@
+{
+  "iconUrl": "https://raw.githubusercontent.com/etumen/cs-kraptor/refs/heads/master/.github/icons/logo/kraptorfavicon.png",
+  "name": "Kraptor 2025 Legacy | etumen",
+  "description": "30 Aralık 2025 Kraptor eklenti arşivi - yeni cihaz kurulumu için korunmuş kopya",
+  "manifestVersion": 1,
+  "pluginLists": [
+    "https://raw.githubusercontent.com/etumen/cs-kraptor/refs/heads/legacy-2025/plugins.json"
+  ]
+}
