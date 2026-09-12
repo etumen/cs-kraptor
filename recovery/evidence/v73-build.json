@@ -1,0 +1,12 @@
+{
+  "baseSourceRepository": "feroxx/Kekik-cloudstream",
+  "baseSourceHead": "7e85cf2cb83c5c7083b10276838eae1865a80fa7",
+  "packageVersion": 73,
+  "packageBytes": 45085,
+  "packageSha256": "1a9dc8203fa9c8ea338f7016dd10d343ac5adb323e80a7a096fb47a765b4b202",
+  "gradleTask": ":FullHDFilmizlesene:make",
+  "compile": "PASS",
+  "dex": "PASS",
+  "package": "PASS",
+  "androidRuntime": "PENDING USER TEST"
+}

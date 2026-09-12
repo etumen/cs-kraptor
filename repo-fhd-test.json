@@ -1,0 +1,8 @@
+{
+  "name": "FHD Recovery Test v73 | etumen",
+  "description": "Isolated FullHDFilmizlesene recovery build for device validation",
+  "manifestVersion": 1,
+  "pluginLists": [
+    "https://raw.githubusercontent.com/etumen/cs-kraptor/fix/fullhdfilmizlesene-recovery-20260912/plugins-fhd-test.json"
+  ]
+}

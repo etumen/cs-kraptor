@@ -1,12 +1,15 @@
 # FullHDFilmizlesene recovery
 
-Work branch: fix/fullhdfilmizlesene-recovery-20260912, based on builds-recovered 9e5b230.
-No functional fix is claimed. Baseline package v63 is unchanged.
+Work branch: `fix/fullhdfilmizlesene-recovery-20260912`.
 
-Protected branches and manifest verified in evidence/baseline.json.
-Available binary history reaches v63 (9a2fcc6, 2026-06-04).
-Upstream wiki notes contain later RapidVid fixes on 2026-08-01 and 2026-08-03;
-notes are evidence of announced changes, not recovered implementation.
+Recovered v63 remains preserved as evidence. A new recovery package was rebuilt as v73 from Feroxx/Kekik-cloudstream base `7e85cf2` plus audited fixes for the 2026 FullHDFilmizlesene flow.
 
-Initial HEAD request to https://www.fullhdfilmizlesene.now/ returned HTTP 403,
-server: cloudflare, cf-mitigated: challenge. GET probes and source analysis pending.
+Implemented in v73:
+- search uses `/autocomplete/q.php?q=...` JSON endpoint instead of the stale `/arama/...` HTML path;
+- main-site requests use CloudStream `CloudflareKiller`;
+- `scx` parsing supports balanced/multiline objects and individual list/map entries;
+- ad placeholder hosts are skipped;
+- RapidVid supports both legacy `window._p8` and `jwSetup.sources` forms;
+- package build/DEX/package tasks PASS.
+
+Android runtime test is still pending. The v73 package is exposed only through the isolated `repo-fhd-test.json` manifest; protected/recovered manifests were not changed.
