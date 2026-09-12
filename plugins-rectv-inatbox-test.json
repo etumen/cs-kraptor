@@ -1,50 +1,50 @@
-﻿[
-    {
-        "url":  "https://raw.githubusercontent.com/etumen/cs-kraptor/fix/rectv-inatbox-audit-20260913/RecTV.cs3",
-        "status":  3,
-        "version":  30,
-        "name":  "RecTV",
-        "internalName":  "RecTV",
-        "authors":  [
-                        "Eagle",
-                        "kraptor",
-                        "ByAyzen"
-                    ],
-        "description":  "[AUDIT TEST - kod mantığı değiştirilmedi, recovered baseline] RecTV,TÃ¼rkiyeâ€™deki en popÃ¼ler Ã‡evrimiÃ§i Medya AkÄ±ÅŸ platformlarÄ±ndan biridir. Filmlerin, CanlÄ± SporlarÄ±n, Web Dizilerinin ve Ã§ok daha fazlasÄ±nÄ±n keyfini Ã¼cretsiz Ã§Ä±karÄ±n.",
-        "fileSize":  56864,
-        "repositoryUrl":  "https://github.com/etumen/cs-kraptor",
-        "language":  "tr",
-        "tvTypes":  [
-                        "Movie",
-                        "Live",
-                        "TvSeries"
-                    ],
-        "iconUrl":  "https://t0.gstatic.com/faviconV2?client=SOCIAL\u0026type=FAVICON\u0026fallback_opts=TYPE,SIZE,URL\u0026url=https://rectvapk.cc\u0026size=128",
-        "apiVersion":  1,
-        "fileHash":  "sha256-3a869b4e1f14de9761e82079df11cd2ad4d1839b99d367ce46b4b770f9b75d11"
-    },
-    {
-        "url":  "https://raw.githubusercontent.com/etumen/cs-kraptor/fix/rectv-inatbox-audit-20260913/InatBox.cs3",
-        "status":  3,
-        "version":  55,
-        "name":  "InatBox",
-        "internalName":  "InatBox",
-        "authors":  [
-                        "Eagle",
-                        "kraptor",
-                        "JustRelaxable"
-                    ],
-        "description":  "[AUDIT TEST - kod mantığı değiştirilmedi, recovered baseline] Bu eklenti dÃ¼zenli gÃ¼ncelleme almayacaktÄ±r!",
-        "fileSize":  52927,
-        "repositoryUrl":  "https://github.com/etumen/cs-kraptor",
-        "language":  "tr",
-        "tvTypes":  [
-                        "Movie",
-                        "TvSeries",
-                        "Live"
-                    ],
-        "iconUrl":  "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh3vCp6N1K4bECoYRQD-cisJF2_6V_Hk01ZhDmoPR2JuM8O5qr4MqrPO1munM9cRlleBBSK6odYhLtDBWv4E3vhPhynlmS5hVVtJZShHoGA5REQ8_3v8SIlccTEqzVQu2UJyNYQdJNrKIfWy66RQeT0D-CcmFCbHPz5023H6p2v5fv4NVloZ5Rqo_yGrIY/s320/iNat-Box-App.png",
-        "apiVersion":  1,
-        "fileHash":  "sha256-b2a993fa6db53543608cb405db11d3f4c7c5a169c69055c01c94fd62c6fa2b99"
-    }
+[
+  {
+    "url": "https://raw.githubusercontent.com/etumen/cs-kraptor/fix/rectv-inatbox-audit-20260913/RecTV.cs3",
+    "status": 3,
+    "version": 30,
+    "name": "RecTV",
+    "internalName": "RecTV",
+    "authors": [
+      "Eagle",
+      "kraptor",
+      "ByAyzen"
+    ],
+    "description": "[AUDIT TEST - kod mantığı değiştirilmedi, recovered baseline] RecTV: film, dizi ve canlı yayın kategorileri için cihaz doğrulama paketi.",
+    "fileSize": 56864,
+    "repositoryUrl": "https://github.com/etumen/cs-kraptor",
+    "language": "tr",
+    "tvTypes": [
+      "Movie",
+      "Live",
+      "TvSeries"
+    ],
+    "iconUrl": "https://t0.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://rectvapk.cc&size=128",
+    "apiVersion": 1,
+    "fileHash": "sha256-3a869b4e1f14de9761e82079df11cd2ad4d1839b99d367ce46b4b770f9b75d11"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/etumen/cs-kraptor/fix/rectv-inatbox-audit-20260913/InatBox.cs3",
+    "status": 3,
+    "version": 55,
+    "name": "InatBox",
+    "internalName": "InatBox",
+    "authors": [
+      "Eagle",
+      "kraptor",
+      "JustRelaxable"
+    ],
+    "description": "[AUDIT TEST - kod mantığı değiştirilmedi, recovered baseline] InatBox: film, dizi ve canlı yayın kategorileri için cihaz doğrulama paketi.",
+    "fileSize": 52927,
+    "repositoryUrl": "https://github.com/etumen/cs-kraptor",
+    "language": "tr",
+    "tvTypes": [
+      "Movie",
+      "TvSeries",
+      "Live"
+    ],
+    "iconUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh3vCp6N1K4bECoYRQD-cisJF2_6V_Hk01ZhDmoPR2JuM8O5qr4MqrPO1munM9cRlleBBSK6odYhLtDBWv4E3vhPhynlmS5hVVtJZShHoGA5REQ8_3v8SIlccTEqzVQu2UJyNYQdJNrKIfWy66RQeT0D-CcmFCbHPz5023H6p2v5fv4NVloZ5Rqo_yGrIY/s320/iNat-Box-App.png",
+    "apiVersion": 1,
+    "fileHash": "sha256-b2a993fa6db53543608cb405db11d3f4c7c5a169c69055c01c94fd62c6fa2b99"
+  }
 ]
