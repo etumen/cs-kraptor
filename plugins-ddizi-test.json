@@ -1,0 +1,23 @@
+[
+  {
+    "url": "https://raw.githubusercontent.com/etumen/cs-kraptor/fix/ddizi-recovery-20260913/Ddizi.cs3",
+    "status": 1,
+    "version": 38,
+    "name": "Ddizi",
+    "internalName": "Ddizi",
+    "authors": [
+      "keyiflerolsun",
+      "etumen-recovery"
+    ],
+    "description": "DDizi.im için güncel CloudStream eklentisi",
+    "fileSize": 19260,
+    "repositoryUrl": "https://github.com/etumen/cs-kraptor",
+    "language": "tr",
+    "tvTypes": [
+      "TvSeries"
+    ],
+    "iconUrl": "https://www.ddizi.im/favicon.ico",
+    "apiVersion": 1,
+    "fileHash": "sha256-819d5f1d83d06c9ea834a43990c02d2f93b3b820928ba80acd1de161eec08242"
+  }
+]
