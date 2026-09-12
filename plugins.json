@@ -1,6 +1,6 @@
 [
   {
-    "url": "https://raw.githubusercontent.com/nutine/cs-kraptor/builds/AnimeciX.cs3",
+    "url": "https://raw.githubusercontent.com/etumen/cs-kraptor/builds/AnimeciX.cs3",
     "status": 1,
     "version": 76,
     "name": "AnimeciX",
@@ -13,7 +13,7 @@
     ],
     "description": "AnimeciX, animeleri keşfedebileceğiniz ve animeler hakkında her şeyi öğrenebileceğiniz bir paylaşım platformudur.",
     "fileSize": 155308,
-    "repositoryUrl": "https://github.com/nutine/cs-kraptor",
+    "repositoryUrl": "https://github.com/etumen/cs-kraptor",
     "language": "tr",
     "tvTypes": [
       "Anime"
@@ -23,7 +23,7 @@
     "fileHash": "sha256-5e9d84839001889ed0549ecdcc7d038cee3f2b20d91f4cb110e50741db7bc790"
   },
   {
-    "url": "https://raw.githubusercontent.com/nutine/cs-kraptor/builds/Animeler.cs3",
+    "url": "https://raw.githubusercontent.com/etumen/cs-kraptor/builds/Animeler.cs3",
     "status": 1,
     "version": 38,
     "name": "Animeler",
@@ -35,7 +35,7 @@
     ],
     "description": "HD kalitesinde ücretsiz anime izle! Animeler.me, en yeni ve popüler anime serilerini Türkçe altyazılı ve dublajlı olarak sunar. Favori animelerini hemen keşfet!",
     "fileSize": 45947,
-    "repositoryUrl": "https://github.com/nutine/cs-kraptor",
+    "repositoryUrl": "https://github.com/etumen/cs-kraptor",
     "language": "tr",
     "tvTypes": [
       "Anime"
@@ -45,7 +45,7 @@
     "fileHash": "sha256-a4fb8096aa5b1f53179c38e4769190eb986f48d3cc0e21d72139004d0f0bab3f"
   },
   {
-    "url": "https://raw.githubusercontent.com/nutine/cs-kraptor/builds/Animely.cs3",
+    "url": "https://raw.githubusercontent.com/etumen/cs-kraptor/builds/Animely.cs3",
     "status": 2,
     "version": 14,
     "name": "Animely",
@@ -56,7 +56,7 @@
     ],
     "description": "Animely ile en sevdiğiniz animeleri Türkçe altyazılı olarak HD kalitede izleyin. Güncel sezon animeleri, klasikler ve çok daha fazlası. Hemen ücretsiz hesap oluşturun ve anime dünyasına katılın. Binlerce bölüm anime içeriğiyle sizleri bekliyor!",
     "fileSize": 35560,
-    "repositoryUrl": "https://github.com/nutine/cs-kraptor",
+    "repositoryUrl": "https://github.com/etumen/cs-kraptor",
     "language": "tr",
     "tvTypes": [
       "Anime",
@@ -68,7 +68,7 @@
     "fileHash": "sha256-faf60dcbf155dc179c5d73068add2c6faab27cb871aa38caf34394ae089863ec"
   },
   {
-    "url": "https://raw.githubusercontent.com/nutine/cs-kraptor/builds/Anizium.cs3",
+    "url": "https://raw.githubusercontent.com/etumen/cs-kraptor/builds/Anizium.cs3",
     "status": 1,
     "version": 22,
     "name": "Anizium",
@@ -79,7 +79,7 @@
     ],
     "description": "Anizium ile dünyada ilk ve tek 4K Türkçe dublaj platformunda anime keyfini yaşa. En yeni animeleri İngilizce altyazı ve dublaj seçenekleriyle 1080p ve 4K kalitesinde HD izle.",
     "fileSize": 70615,
-    "repositoryUrl": "https://github.com/nutine/cs-kraptor",
+    "repositoryUrl": "https://github.com/etumen/cs-kraptor",
     "language": "tr",
     "tvTypes": [
       "AnimeMovie",
@@ -90,7 +90,7 @@
     "fileHash": "sha256-47c137b39b8d47ed7bd2cf364cabb4461fe11241e6367bf3972bdc5e77434123"
   },
   {
-    "url": "https://raw.githubusercontent.com/nutine/cs-kraptor/builds/AsyaAnimeleri.cs3",
+    "url": "https://raw.githubusercontent.com/etumen/cs-kraptor/builds/AsyaAnimeleri.cs3",
     "status": 1,
     "version": 21,
     "name": "AsyaAnimeleri",
@@ -100,7 +100,7 @@
     ],
     "description": "Asya Animeleri – Anime izle | Donghua izle | Animeler | Donghuantr | Türkanime | Donghua Anime, Türkçe Altyazılı Anime izle , Türkçe Anime, animeizle.",
     "fileSize": 28074,
-    "repositoryUrl": "https://github.com/nutine/cs-kraptor",
+    "repositoryUrl": "https://github.com/etumen/cs-kraptor",
     "language": "tr",
     "tvTypes": [
       "Anime"
@@ -110,7 +110,7 @@
     "fileHash": "sha256-b3f79532a5c0b35d109e5d5bdbb4f2bc37ad50e8928b5b40f5dcde3a0744df0f"
   },
   {
-    "url": "https://raw.githubusercontent.com/nutine/cs-kraptor/builds/AsyaFanatiklerim.cs3",
+    "url": "https://raw.githubusercontent.com/etumen/cs-kraptor/builds/AsyaFanatiklerim.cs3",
     "status": 1,
     "version": 20,
     "name": "AsyaFanatiklerim",
@@ -121,7 +121,7 @@
     ],
     "description": "Asya Fanatikleri, asya dizilerini izleme imkanı sunar. Kore dizileri izle, asyafanatikleri kore dizileri, tayvan dizileri izle, çin dizileri izle, anime izle.",
     "fileSize": 21900,
-    "repositoryUrl": "https://github.com/nutine/cs-kraptor",
+    "repositoryUrl": "https://github.com/etumen/cs-kraptor",
     "language": "tr",
     "tvTypes": [
       "AsianDrama"
@@ -131,7 +131,7 @@
     "fileHash": "sha256-f2bec5071233fd03d31e9046bd7f4dbe8762c431bf5d483076cd49bfd5076e5b"
   },
   {
-    "url": "https://raw.githubusercontent.com/nutine/cs-kraptor/builds/AsyaMinik.cs3",
+    "url": "https://raw.githubusercontent.com/etumen/cs-kraptor/builds/AsyaMinik.cs3",
     "status": 1,
     "version": 14,
     "name": "AsyaMinik",
@@ -141,7 +141,7 @@
     ],
     "description": "Asyaminik - En Güncel Asya Dizileri Burada!",
     "fileSize": 20573,
-    "repositoryUrl": "https://github.com/nutine/cs-kraptor",
+    "repositoryUrl": "https://github.com/etumen/cs-kraptor",
     "language": "tr",
     "tvTypes": [
       "AsianDrama"
@@ -151,7 +151,7 @@
     "fileHash": "sha256-4240bb11e038471461b2b6286fd40de81a1f65829296eade244122b37cc11161"
   },
   {
-    "url": "https://raw.githubusercontent.com/nutine/cs-kraptor/builds/AsyaWatch.cs3",
+    "url": "https://raw.githubusercontent.com/etumen/cs-kraptor/builds/AsyaWatch.cs3",
     "status": 1,
     "version": 38,
     "name": "AsyaWatch",
@@ -161,7 +161,7 @@
     ],
     "description": "Kore, Çin ve Japon dizilerini tek tıkla HD ve Türkçe altyazılı izle. En güncel Asya dizileri, unutulmaz Asya filmleri ve web dramalar seni bekliyor.",
     "fileSize": 61456,
-    "repositoryUrl": "https://github.com/nutine/cs-kraptor",
+    "repositoryUrl": "https://github.com/etumen/cs-kraptor",
     "language": "tr",
     "tvTypes": [
       "AsianDrama"
@@ -171,7 +171,7 @@
     "fileHash": "sha256-75c09c7a2087ab0e1abcf2d2b55da86900b146b2273f1670cc73c6a8a2be8ffe"
   },
   {
-    "url": "https://raw.githubusercontent.com/nutine/cs-kraptor/builds/BelgeselX.cs3",
+    "url": "https://raw.githubusercontent.com/etumen/cs-kraptor/builds/BelgeselX.cs3",
     "status": 1,
     "version": 36,
     "name": "BelgeselX",
@@ -182,7 +182,7 @@
     ],
     "description": "En yeni belgeseller, türkçe altyazılı yada dublaj olarak 1080p kalitesinde HD belgesel izle.",
     "fileSize": 42446,
-    "repositoryUrl": "https://github.com/nutine/cs-kraptor",
+    "repositoryUrl": "https://github.com/etumen/cs-kraptor",
     "language": "tr",
     "tvTypes": [
       "Documentary"
@@ -192,7 +192,7 @@
     "fileHash": "sha256-cbf5629bc1e72752f55ae1121d9ff65811e5414045c5543e06017caf7e9570f9"
   },
   {
-    "url": "https://raw.githubusercontent.com/nutine/cs-kraptor/builds/CizgiMax.cs3",
+    "url": "https://raw.githubusercontent.com/etumen/cs-kraptor/builds/CizgiMax.cs3",
     "status": 1,
     "version": 33,
     "name": "CizgiMax",
@@ -203,7 +203,7 @@
     ],
     "description": "ÇizgiMax ile Çizgi Film izlemek artık daha kolay, donmadan full hd ve reklamsız bir sitedir, içerisinde 700 den fazla çizgi film olan, Bu site bu işi profesyonelce yapıyor.",
     "fileSize": 40875,
-    "repositoryUrl": "https://github.com/nutine/cs-kraptor",
+    "repositoryUrl": "https://github.com/etumen/cs-kraptor",
     "language": "tr",
     "tvTypes": [
       "Cartoon"
@@ -213,7 +213,7 @@
     "fileHash": "sha256-71a7d7866e295ee11c9dd7ae13fbea603dfba53e423b54d071c88f6a1c03d73d"
   },
   {
-    "url": "https://raw.githubusercontent.com/nutine/cs-kraptor/builds/CizgiveDizi.cs3",
+    "url": "https://raw.githubusercontent.com/etumen/cs-kraptor/builds/CizgiveDizi.cs3",
     "status": 1,
     "version": 44,
     "name": "CizgiveDizi",
@@ -223,7 +223,7 @@
     ],
     "description": "Ücretsiz bir şekilde çizgi dizi, dizi, anime ve daha fazlasını eski-yeni demeden izleyebilirsiniz.",
     "fileSize": 34840,
-    "repositoryUrl": "https://github.com/nutine/cs-kraptor",
+    "repositoryUrl": "https://github.com/etumen/cs-kraptor",
     "language": "tr",
     "tvTypes": [
       "Cartoon"
@@ -233,7 +233,7 @@
     "fileHash": "sha256-9168b413efd28eb50dc10984242c80143f1d69dc646e26a8f2b56b4219411ce3"
   },
   {
-    "url": "https://raw.githubusercontent.com/nutine/cs-kraptor/builds/Ddizi.cs3",
+    "url": "https://raw.githubusercontent.com/etumen/cs-kraptor/builds/Ddizi.cs3",
     "status": 1,
     "version": 14,
     "name": "Ddizi",
@@ -243,7 +243,7 @@
     ],
     "description": "Ddizi, dizi izle, dizi seyret, yerli dizi izle, canlı dizi, türk dizi izle, dizi izle full, diziizle, eski diziler.",
     "fileSize": 26820,
-    "repositoryUrl": "https://github.com/nutine/cs-kraptor",
+    "repositoryUrl": "https://github.com/etumen/cs-kraptor",
     "language": "tr",
     "tvTypes": [
       "TvSeries"
@@ -253,7 +253,7 @@
     "fileHash": "sha256-ada64b4eb65f586f3c42b1f17faa2d36dae555f0c0e6a78b52866e5da804be20"
   },
   {
-    "url": "https://raw.githubusercontent.com/nutine/cs-kraptor/builds/DiziAsia.cs3",
+    "url": "https://raw.githubusercontent.com/etumen/cs-kraptor/builds/DiziAsia.cs3",
     "status": 1,
     "version": 15,
     "name": "DiziAsia",
@@ -263,7 +263,7 @@
     ],
     "description": "DiziAsia - Asya Dizileri İzle",
     "fileSize": 18145,
-    "repositoryUrl": "https://github.com/nutine/cs-kraptor",
+    "repositoryUrl": "https://github.com/etumen/cs-kraptor",
     "language": "tr",
     "tvTypes": [
       "AsianDrama"
@@ -273,7 +273,7 @@
     "fileHash": "sha256-3941f367bb0e5dd4d54363b6cdeb17e561f3caf6134ab523b18266133223a0a9"
   },
   {
-    "url": "https://raw.githubusercontent.com/nutine/cs-kraptor/builds/DiziAsya.cs3",
+    "url": "https://raw.githubusercontent.com/etumen/cs-kraptor/builds/DiziAsya.cs3",
     "status": 1,
     "version": 21,
     "name": "DiziAsya",
@@ -283,7 +283,7 @@
     ],
     "description": "Asya'nın en iyi Çin ve Kore dizilerini ve filmlerini keşfedin! Romantizm, dram, aksiyon... Diziasya ile Asya kültürüne hemen adım atın!",
     "fileSize": 34038,
-    "repositoryUrl": "https://github.com/nutine/cs-kraptor",
+    "repositoryUrl": "https://github.com/etumen/cs-kraptor",
     "language": "tr",
     "tvTypes": [
       "AsianDrama"
@@ -293,7 +293,7 @@
     "fileHash": "sha256-a304b53030f98a0ff515392973cf015d9d56e260182f7dd45f1f1c3f6fd9e2c0"
   },
   {
-    "url": "https://raw.githubusercontent.com/nutine/cs-kraptor/builds/DiziBox.cs3",
+    "url": "https://raw.githubusercontent.com/etumen/cs-kraptor/builds/DiziBox.cs3",
     "status": 1,
     "version": 35,
     "name": "DiziBox",
@@ -305,7 +305,7 @@
     ],
     "description": "Yabancı Dizi izle, Tüm yabancı dizilerin yeni ve eski sezonlarını full hd izleyebileceğiniz elit site.",
     "fileSize": 34702,
-    "repositoryUrl": "https://github.com/nutine/cs-kraptor",
+    "repositoryUrl": "https://github.com/etumen/cs-kraptor",
     "language": "tr",
     "tvTypes": [
       "TvSeries"
@@ -315,7 +315,7 @@
     "fileHash": "sha256-7fed4461c5dd95fceb3aa6aac6741b606a0e8e7b9edbc08ab133543536ffe193"
   },
   {
-    "url": "https://raw.githubusercontent.com/nutine/cs-kraptor/builds/DiziFilmORG.cs3",
+    "url": "https://raw.githubusercontent.com/etumen/cs-kraptor/builds/DiziFilmORG.cs3",
     "status": 1,
     "version": 17,
     "name": "DiziFilmORG",
@@ -325,7 +325,7 @@
     ],
     "description": "En yeni ve popüler yerli yabancı filmleri Türkçe dublaj ve altyazılı seçeneklerle Full HD kalitede, tek parça ve kesintisiz Dizifilm.org’da izle.",
     "fileSize": 70643,
-    "repositoryUrl": "https://github.com/nutine/cs-kraptor",
+    "repositoryUrl": "https://github.com/etumen/cs-kraptor",
     "language": "tr",
     "tvTypes": [
       "Movie",
@@ -336,7 +336,7 @@
     "fileHash": "sha256-2695a3c9ebf406560de704b3fcee6f56e0d7dcb6148550d7ce8174b5e50ce789"
   },
   {
-    "url": "https://raw.githubusercontent.com/nutine/cs-kraptor/builds/Dizigecesi.cs3",
+    "url": "https://raw.githubusercontent.com/etumen/cs-kraptor/builds/Dizigecesi.cs3",
     "status": 1,
     "version": 1,
     "name": "Dizigecesi",
@@ -346,7 +346,7 @@
     ],
     "description": "Dizigecesi ile yüksek kalitede Türkçe altyazılı yabancı dizileri kesintisiz ve reklamsız izleyebilirsiniz. Yabancı dizi izle, yabancı film izle, yabancı diziler, yabancı filmler.",
     "fileSize": 58420,
-    "repositoryUrl": "https://github.com/nutine/cs-kraptor",
+    "repositoryUrl": "https://github.com/etumen/cs-kraptor",
     "language": "tr",
     "tvTypes": [
       "Movie",
@@ -357,7 +357,7 @@
     "fileHash": "sha256-a9f8d809420197f03e2a1359316e4baaadf66957aec98ebed58e8a9f08b97b60"
   },
   {
-    "url": "https://raw.githubusercontent.com/nutine/cs-kraptor/builds/DiziKorea.cs3",
+    "url": "https://raw.githubusercontent.com/etumen/cs-kraptor/builds/DiziKorea.cs3",
     "status": 0,
     "version": 30,
     "name": "DiziKorea",
@@ -368,7 +368,7 @@
     ],
     "description": "Kore Dizileri izle, Dizikorea size en yeni ve güncel romantik komedi, okul tarzında ki Kore Asya Dizilerini Full HD Türkçe Altyazılı izleme şansı verir.",
     "fileSize": 55107,
-    "repositoryUrl": "https://github.com/nutine/cs-kraptor",
+    "repositoryUrl": "https://github.com/etumen/cs-kraptor",
     "language": "tr",
     "tvTypes": [
       "AsianDrama"
@@ -378,7 +378,7 @@
     "fileHash": "sha256-75c142c88e8b13b095d2c089a97769d57441d8508d8bb8df3e8bd4a1f2a45259"
   },
   {
-    "url": "https://raw.githubusercontent.com/nutine/cs-kraptor/builds/DiziLife.cs3",
+    "url": "https://raw.githubusercontent.com/etumen/cs-kraptor/builds/DiziLife.cs3",
     "status": 1,
     "version": 54,
     "name": "DiziLife",
@@ -390,7 +390,7 @@
     ],
     "description": "Dizilife yabancı dizi ve film izlemek için tasarlanmış bir platformdur. Tüm dünyadan yerli/yabancı bütün dizileri ve filmleri ücretsiz ve donmadan izleyebilirsiniz.",
     "fileSize": 72416,
-    "repositoryUrl": "https://github.com/nutine/cs-kraptor",
+    "repositoryUrl": "https://github.com/etumen/cs-kraptor",
     "language": "tr",
     "tvTypes": [
       "Movie",
@@ -401,7 +401,7 @@
     "fileHash": "sha256-bfb0bb899e0b0491e9130e4297935ae0cbe8aa1207a03ad352584f43d6b01446"
   },
   {
-    "url": "https://raw.githubusercontent.com/nutine/cs-kraptor/builds/Dizilla.cs3",
+    "url": "https://raw.githubusercontent.com/etumen/cs-kraptor/builds/Dizilla.cs3",
     "status": 1,
     "version": 103,
     "name": "Dizilla",
@@ -412,7 +412,7 @@
     ],
     "description": "1080p yabancı dizi izle. Türkçe altyazılı veya dublaj seçenekleriyle 1080p çözünürlükte yabancı dizilere anında ulaş. Popüler dizileri kesintisiz izle.",
     "fileSize": 141203,
-    "repositoryUrl": "https://github.com/nutine/cs-kraptor",
+    "repositoryUrl": "https://github.com/etumen/cs-kraptor",
     "language": "tr",
     "tvTypes": [
       "TvSeries"
@@ -422,7 +422,7 @@
     "fileHash": "sha256-77e1c33b902ec1d83b10d8766e07f262c6ca0e55c443ba63a75e9b5a590b5888"
   },
   {
-    "url": "https://raw.githubusercontent.com/nutine/cs-kraptor/builds/DiziMom.cs3",
+    "url": "https://raw.githubusercontent.com/etumen/cs-kraptor/builds/DiziMom.cs3",
     "status": 1,
     "version": 57,
     "name": "DiziMom",
@@ -432,7 +432,7 @@
     ],
     "description": "Binlerce yerli yabancı dizi arşivi, tüm sezonlar, kesintisiz bölümler. Sadece dizi izle, Dizimom heryerde seninle!",
     "fileSize": 44861,
-    "repositoryUrl": "https://github.com/nutine/cs-kraptor",
+    "repositoryUrl": "https://github.com/etumen/cs-kraptor",
     "language": "tr",
     "tvTypes": [
       "TvSeries"
@@ -442,7 +442,7 @@
     "fileHash": "sha256-c351b188399903bc190afe23b43f1fb5dd2aab1eeec881c1915717cf9c01eaa5"
   },
   {
-    "url": "https://raw.githubusercontent.com/nutine/cs-kraptor/builds/DiziPal.cs3",
+    "url": "https://raw.githubusercontent.com/etumen/cs-kraptor/builds/DiziPal.cs3",
     "status": 1,
     "version": 85,
     "name": "DiziPal",
@@ -453,7 +453,7 @@
     ],
     "description": "En yeni dizileri güvenli ve hızlı şekilde sunar.",
     "fileSize": 30798,
-    "repositoryUrl": "https://github.com/nutine/cs-kraptor",
+    "repositoryUrl": "https://github.com/etumen/cs-kraptor",
     "language": "tr",
     "tvTypes": [
       "Movie",
@@ -464,7 +464,7 @@
     "fileHash": "sha256-90e66fbc05eb015386bf93c078929dd8e7d3a3bbe0bf12b56175bff64a92fe7f"
   },
   {
-    "url": "https://raw.githubusercontent.com/nutine/cs-kraptor/builds/DiziPalOrijinal.cs3",
+    "url": "https://raw.githubusercontent.com/etumen/cs-kraptor/builds/DiziPalOrijinal.cs3",
     "status": 1,
     "version": 34,
     "name": "DiziPalOrijinal",
@@ -476,7 +476,7 @@
     ],
     "description": "DiziPal Orijinal.",
     "fileSize": 156843,
-    "repositoryUrl": "https://github.com/nutine/cs-kraptor",
+    "repositoryUrl": "https://github.com/etumen/cs-kraptor",
     "language": "tr",
     "tvTypes": [
       "TvSeries"
@@ -486,7 +486,7 @@
     "fileHash": "sha256-fe5833c349a4ae7b93e1495c195af0071f7238f5acdeca07bef4ae1e38436e5d"
   },
   {
-    "url": "https://raw.githubusercontent.com/nutine/cs-kraptor/builds/Dizipod.cs3",
+    "url": "https://raw.githubusercontent.com/etumen/cs-kraptor/builds/Dizipod.cs3",
     "status": 1,
     "version": 8,
     "name": "Dizipod",
@@ -498,7 +498,7 @@
     ],
     "description": "Güncel diziler, son eklenen yabancı dizileri bu sayfadan takip edebilirsiniz. Son eklenen yabancı dizileri donmadan izlemek için bizi takip etmeye devam edin.",
     "fileSize": 70319,
-    "repositoryUrl": "https://github.com/nutine/cs-kraptor",
+    "repositoryUrl": "https://github.com/etumen/cs-kraptor",
     "language": "tr",
     "tvTypes": [
       "Movie",
@@ -510,7 +510,7 @@
     "fileHash": "sha256-7e15792ac40f70857ebef2b95ab8e5f3912ed6ad9621e764199ab313965c2772"
   },
   {
-    "url": "https://raw.githubusercontent.com/nutine/cs-kraptor/builds/DiziYo.cs3",
+    "url": "https://raw.githubusercontent.com/etumen/cs-kraptor/builds/DiziYo.cs3",
     "status": 1,
     "version": 71,
     "name": "DiziYo",
@@ -521,7 +521,7 @@
     ],
     "description": "Diziyo ile Yabancı Dizi, Film, Anime, Çizgi-Film izle.",
     "fileSize": 28848,
-    "repositoryUrl": "https://github.com/nutine/cs-kraptor",
+    "repositoryUrl": "https://github.com/etumen/cs-kraptor",
     "language": "tr",
     "tvTypes": [
       "TvSeries"
@@ -531,7 +531,7 @@
     "fileHash": "sha256-6717e2b43060376e41a6559c987446aab24a138c7d2b2d972064abfcd6d3a744"
   },
   {
-    "url": "https://raw.githubusercontent.com/nutine/cs-kraptor/builds/DiziYou.cs3",
+    "url": "https://raw.githubusercontent.com/etumen/cs-kraptor/builds/DiziYou.cs3",
     "status": 1,
     "version": 46,
     "name": "DiziYou",
@@ -541,7 +541,7 @@
     ],
     "description": "Diziyou en kaliteli Türkçe dublaj ve altyazılı yabancı dizi izleme sitesidir. Güncel ve efsanevi dizileri 1080p Full HD kalitede izlemek için hemen tıkla!",
     "fileSize": 47190,
-    "repositoryUrl": "https://github.com/nutine/cs-kraptor",
+    "repositoryUrl": "https://github.com/etumen/cs-kraptor",
     "language": "tr",
     "tvTypes": [
       "TvSeries"
@@ -551,7 +551,7 @@
     "fileHash": "sha256-fed5934e6c1c2c641e9d8ef9587e5351f7fc96067499f71905496a1ba62b9a27"
   },
   {
-    "url": "https://raw.githubusercontent.com/nutine/cs-kraptor/builds/FilmEkseni.cs3",
+    "url": "https://raw.githubusercontent.com/etumen/cs-kraptor/builds/FilmEkseni.cs3",
     "status": 1,
     "version": 47,
     "name": "FilmEkseni",
@@ -562,7 +562,7 @@
     ],
     "description": "Film Ekseni ⚡ Vizyonda ki, en güncel ve en yeni filmleri full hd kalitesinde türkçe dublaj ve altyazı seçenekleriyle 1080p olarak izleyebileceğiniz adresiniz.",
     "fileSize": 62537,
-    "repositoryUrl": "https://github.com/nutine/cs-kraptor",
+    "repositoryUrl": "https://github.com/etumen/cs-kraptor",
     "language": "tr",
     "tvTypes": [
       "Movie"
@@ -572,7 +572,7 @@
     "fileHash": "sha256-28acc85ab15a8093902d51b5ed606648299dfd0922160e1c3203ed24fbd303b1"
   },
   {
-    "url": "https://raw.githubusercontent.com/nutine/cs-kraptor/builds/FilmHane.cs3",
+    "url": "https://raw.githubusercontent.com/etumen/cs-kraptor/builds/FilmHane.cs3",
     "status": 1,
     "version": 40,
     "name": "FilmHane",
@@ -582,7 +582,7 @@
       "ByAyzen"
     ],
     "fileSize": 53467,
-    "repositoryUrl": "https://github.com/nutine/cs-kraptor",
+    "repositoryUrl": "https://github.com/etumen/cs-kraptor",
     "language": "tr",
     "tvTypes": [
       "Movie"
@@ -592,7 +592,7 @@
     "fileHash": "sha256-289aa43ce9182b5b9b1536cf88087af7cca458f2669d65eb7d96b198c784237b"
   },
   {
-    "url": "https://raw.githubusercontent.com/nutine/cs-kraptor/builds/FilmMakinesi.cs3",
+    "url": "https://raw.githubusercontent.com/etumen/cs-kraptor/builds/FilmMakinesi.cs3",
     "status": 1,
     "version": 67,
     "name": "FilmMakinesi",
@@ -604,7 +604,7 @@
     ],
     "description": "Film Makinesi, en yeni ve en güncel filmleri sitemizde full HD kalite farkı ile izleyebilirsiniz. HD film izle denildiğinde akla gelen en kaliteli film izleme sitesi.",
     "fileSize": 74369,
-    "repositoryUrl": "https://github.com/nutine/cs-kraptor",
+    "repositoryUrl": "https://github.com/etumen/cs-kraptor",
     "language": "tr",
     "tvTypes": [
       "Movie",
@@ -615,7 +615,7 @@
     "fileHash": "sha256-e7e8d803888adcc18314885a8c9fc3f6538ab33ac79145c439c48b8b6f95269d"
   },
   {
-    "url": "https://raw.githubusercontent.com/nutine/cs-kraptor/builds/FilmModu.cs3",
+    "url": "https://raw.githubusercontent.com/etumen/cs-kraptor/builds/FilmModu.cs3",
     "status": 1,
     "version": 39,
     "name": "FilmModu",
@@ -625,7 +625,7 @@
     ],
     "description": "Film modun geldiyse yüksek kalitede en yeni filmleri izle, 1080p izleyebileceğiniz reklamsiz film sitesi.",
     "fileSize": 23089,
-    "repositoryUrl": "https://github.com/nutine/cs-kraptor",
+    "repositoryUrl": "https://github.com/etumen/cs-kraptor",
     "language": "tr",
     "tvTypes": [
       "Movie"
@@ -635,7 +635,7 @@
     "fileHash": "sha256-1c34d7c8284fbde7735ff1afbdbcf0eef663cff064c1e33ab2060437f8be7b29"
   },
   {
-    "url": "https://raw.githubusercontent.com/nutine/cs-kraptor/builds/Filmzal.cs3",
+    "url": "https://raw.githubusercontent.com/etumen/cs-kraptor/builds/Filmzal.cs3",
     "status": 1,
     "version": 12,
     "name": "Filmzal",
@@ -645,7 +645,7 @@
     ],
     "description": "Filmzal: HD Film izle, Tv-Seriallar - HD Film izle, Azerbaycanca Dublaj film izle, Türkçe Dublaj Film İzle",
     "fileSize": 31350,
-    "repositoryUrl": "https://github.com/nutine/cs-kraptor",
+    "repositoryUrl": "https://github.com/etumen/cs-kraptor",
     "language": "az",
     "tvTypes": [
       "Movie"
@@ -655,7 +655,7 @@
     "fileHash": "sha256-3c7ba518ae98a84795d8f728ce80dec7277896cc45b9a1ee71c36aec65593eb7"
   },
   {
-    "url": "https://raw.githubusercontent.com/nutine/cs-kraptor/builds/FullHDFilmizlesene.cs3",
+    "url": "https://raw.githubusercontent.com/etumen/cs-kraptor/builds/FullHDFilmizlesene.cs3",
     "status": 1,
     "version": 63,
     "name": "FullHDFilmizlesene",
@@ -666,7 +666,7 @@
     ],
     "description": "Sinema zevkini evinize kadar getirdik. Türkiye'nin lider Film sitesinde, en yeni filmleri Full HD izleyin.",
     "fileSize": 138860,
-    "repositoryUrl": "https://github.com/nutine/cs-kraptor",
+    "repositoryUrl": "https://github.com/etumen/cs-kraptor",
     "language": "tr",
     "tvTypes": [
       "Movie"
@@ -676,7 +676,7 @@
     "fileHash": "sha256-6e0d6f48a759ab45e1a863eb2c580fc6b60f34434a6fe0c40f18b9655049f9ed"
   },
   {
-    "url": "https://raw.githubusercontent.com/nutine/cs-kraptor/builds/GinikoCanli.cs3",
+    "url": "https://raw.githubusercontent.com/etumen/cs-kraptor/builds/GinikoCanli.cs3",
     "status": 1,
     "version": 14,
     "name": "GinikoCanli",
@@ -686,7 +686,7 @@
     ],
     "description": "Vpn Gerekli! Dünyanın tüm ülkelerinden ücretsiz çevrimiçi TV.",
     "fileSize": 16360,
-    "repositoryUrl": "https://github.com/nutine/cs-kraptor",
+    "repositoryUrl": "https://github.com/etumen/cs-kraptor",
     "language": "tr",
     "tvTypes": [
       "Live"
@@ -696,7 +696,7 @@
     "fileHash": "sha256-6f2d0b61d7e7344b8b4b77dd31194676afaa02078676e33f40b5e9cb8e4daea8"
   },
   {
-    "url": "https://raw.githubusercontent.com/nutine/cs-kraptor/builds/HDFilmCehennemi.cs3",
+    "url": "https://raw.githubusercontent.com/etumen/cs-kraptor/builds/HDFilmCehennemi.cs3",
     "status": 1,
     "version": 86,
     "name": "HDFilmCehennemi",
@@ -706,7 +706,7 @@
     ],
     "description": "HDFilmCehennemi - Türkiye'nin en hızlı hd film izleme sitesi. Tek ve gerçek HDFilmCehennemi sitesi.",
     "fileSize": 65617,
-    "repositoryUrl": "https://github.com/nutine/cs-kraptor",
+    "repositoryUrl": "https://github.com/etumen/cs-kraptor",
     "language": "tr",
     "tvTypes": [
       "Movie",
@@ -717,7 +717,7 @@
     "fileHash": "sha256-48b39b291d53b2da338de0a85482aaccfff201033d8da798635739ddc68acf10"
   },
   {
-    "url": "https://raw.githubusercontent.com/nutine/cs-kraptor/builds/HDFilmDelisi.cs3",
+    "url": "https://raw.githubusercontent.com/etumen/cs-kraptor/builds/HDFilmDelisi.cs3",
     "status": 1,
     "version": 15,
     "name": "HDFilmDelisi",
@@ -727,7 +727,7 @@
     ],
     "description": "En yeni ve popüler filmleri Türkçe dublaj ve altyazı seçenekleriyle Full HD kalitede izleyin. Binlerce film tek tıkla sizlerle!",
     "fileSize": 77598,
-    "repositoryUrl": "https://github.com/nutine/cs-kraptor",
+    "repositoryUrl": "https://github.com/etumen/cs-kraptor",
     "language": "tr",
     "tvTypes": [
       "Movie"
@@ -737,7 +737,7 @@
     "fileHash": "sha256-b444c3f342f5f06e1f6dbff4acfc25f0518aed99bed5decf260c5733f141d28b"
   },
   {
-    "url": "https://raw.githubusercontent.com/nutine/cs-kraptor/builds/HDFilmizle.cs3",
+    "url": "https://raw.githubusercontent.com/etumen/cs-kraptor/builds/HDFilmizle.cs3",
     "status": 1,
     "version": 19,
     "name": "HDFilmizle",
@@ -747,7 +747,7 @@
     ],
     "description": "En yeni ve popüler filmleri 1080p kalitesinde Türkçe dublaj altyazılı izle. Aksiyon, macera, komedi, dram ve daha fazlası film izle sayfamızda.",
     "fileSize": 55300,
-    "repositoryUrl": "https://github.com/nutine/cs-kraptor",
+    "repositoryUrl": "https://github.com/etumen/cs-kraptor",
     "language": "tr",
     "tvTypes": [
       "Movie"
@@ -757,7 +757,7 @@
     "fileHash": "sha256-cea81f5a2524ff588b7621be0ad6be4a528c090577e110d55f64e358ce5da35a"
   },
   {
-    "url": "https://raw.githubusercontent.com/nutine/cs-kraptor/builds/InatBox.cs3",
+    "url": "https://raw.githubusercontent.com/etumen/cs-kraptor/builds/InatBox.cs3",
     "status": 2,
     "version": 54,
     "name": "InatBox",
@@ -769,7 +769,7 @@
     ],
     "description": "Bu eklenti düzenli güncelleme almayacaktır!",
     "fileSize": 50829,
-    "repositoryUrl": "https://github.com/nutine/cs-kraptor",
+    "repositoryUrl": "https://github.com/etumen/cs-kraptor",
     "language": "tr",
     "tvTypes": [
       "Movie",
@@ -781,7 +781,7 @@
     "fileHash": "sha256-643098f164c5465f50c2bd4bb2455a0f1d675fad1e7765d6c34e1f1fff1b4ce8"
   },
   {
-    "url": "https://raw.githubusercontent.com/nutine/cs-kraptor/builds/JetFilmizle.cs3",
+    "url": "https://raw.githubusercontent.com/etumen/cs-kraptor/builds/JetFilmizle.cs3",
     "status": 1,
     "version": 60,
     "name": "JetFilmizle",
@@ -792,7 +792,7 @@
     ],
     "description": "Binlerce Film İzleme Seçeneğiyle En İyi Film İzleme Sitesi",
     "fileSize": 61952,
-    "repositoryUrl": "https://github.com/nutine/cs-kraptor",
+    "repositoryUrl": "https://github.com/etumen/cs-kraptor",
     "language": "tr",
     "tvTypes": [
       "Movie"
@@ -802,7 +802,7 @@
     "fileHash": "sha256-834376fc45083f40847fafc3ec7ad42305e12a3e74ec67545253fe356350898f"
   },
   {
-    "url": "https://raw.githubusercontent.com/nutine/cs-kraptor/builds/KickTR.cs3",
+    "url": "https://raw.githubusercontent.com/etumen/cs-kraptor/builds/KickTR.cs3",
     "status": 1,
     "version": 14,
     "name": "KickTR",
@@ -813,7 +813,7 @@
     ],
     "description": "Kick, canlı yayın yapılan bir platformdur. Daha gevşek kuralları ve yayıncılara daha fazla kazanç sağlamasıyla bilinir. Platform, yayıncılardan sadece %5 kesinti yapar ve bu oran diğer yayın platformlarına göre en düşük kesintilerden biridir.",
     "fileSize": 30373,
-    "repositoryUrl": "https://github.com/nutine/cs-kraptor",
+    "repositoryUrl": "https://github.com/etumen/cs-kraptor",
     "language": "tr",
     "tvTypes": [
       "Live"
@@ -823,7 +823,7 @@
     "fileHash": "sha256-bc76a6867fd81b20c983a4548dfad8fd92e0400626094e13a76495210e2cdceb"
   },
   {
-    "url": "https://raw.githubusercontent.com/nutine/cs-kraptor/builds/KraptorPlus.cs3",
+    "url": "https://raw.githubusercontent.com/etumen/cs-kraptor/builds/KraptorPlus.cs3",
     "status": 1,
     "version": 70,
     "name": "KraptorPlus",
@@ -835,7 +835,7 @@
     ],
     "description": "Kaliteli kaynakları ile birlikte KraptorPlus eklentisi, sizlere 4K kalitesine kadar yüksek kaliteli ve altyazılı film izleme zevkini sağlıyor.",
     "fileSize": 425762,
-    "repositoryUrl": "https://github.com/nutine/cs-kraptor",
+    "repositoryUrl": "https://github.com/etumen/cs-kraptor",
     "language": "tr",
     "tvTypes": [
       "TvSeries",
@@ -850,7 +850,7 @@
     "fileHash": "sha256-6024abe7f6000dff45e63898aceb5bc141d7c7e10b4535077d49a1d5d8ded747"
   },
   {
-    "url": "https://raw.githubusercontent.com/nutine/cs-kraptor/builds/KultFilmler.cs3",
+    "url": "https://raw.githubusercontent.com/etumen/cs-kraptor/builds/KultFilmler.cs3",
     "status": 1,
     "version": 29,
     "name": "KultFilmler",
@@ -860,7 +860,7 @@
     ],
     "description": "Kült Filmler özenle en iyi filmleri derler ve iyi bir altyazılı film izleme deneyimi sunmayı amaçlar",
     "fileSize": 28917,
-    "repositoryUrl": "https://github.com/nutine/cs-kraptor",
+    "repositoryUrl": "https://github.com/etumen/cs-kraptor",
     "language": "tr",
     "tvTypes": [
       "Movie",
@@ -871,7 +871,7 @@
     "fileHash": "sha256-380438bf29e02fdd456f91af16bfc9b70ff43134dd6c82b2da44a6c8aa920801"
   },
   {
-    "url": "https://raw.githubusercontent.com/nutine/cs-kraptor/builds/MirrorVerse.cs3",
+    "url": "https://raw.githubusercontent.com/etumen/cs-kraptor/builds/MirrorVerse.cs3",
     "status": 1,
     "version": 31,
     "name": "MirrorVerse",
@@ -883,7 +883,7 @@
     ],
     "description": "Netflix, Disney+ ve Primevideo eklentileri tek bir eklentide kendisi bir eklenti degildir bu 3 eklentiyi kurar, tüm eklentilerde altyazı netflixde dublaj desteği var.",
     "fileSize": 119508,
-    "repositoryUrl": "https://github.com/nutine/cs-kraptor",
+    "repositoryUrl": "https://github.com/etumen/cs-kraptor",
     "language": "tr",
     "tvTypes": [
       "Movie",
@@ -894,7 +894,7 @@
     "fileHash": "sha256-71e39c936561e1d2b3074c510157eb077dc99e0ced6cc41cb9f24fd5f9808a4b"
   },
   {
-    "url": "https://raw.githubusercontent.com/nutine/cs-kraptor/builds/OnePaceTr.cs3",
+    "url": "https://raw.githubusercontent.com/etumen/cs-kraptor/builds/OnePaceTr.cs3",
     "status": 1,
     "version": 10,
     "name": "OnePaceTr",
@@ -904,7 +904,7 @@
     ],
     "description": "One Pace türkçe altyazılı izleme platformu.",
     "fileSize": 25092,
-    "repositoryUrl": "https://github.com/nutine/cs-kraptor",
+    "repositoryUrl": "https://github.com/etumen/cs-kraptor",
     "language": "tr",
     "tvTypes": [
       "Anime"
@@ -914,7 +914,7 @@
     "fileHash": "sha256-6d0966ad8ec790fb2c83399f5f873ef1ea85b74c87047095df94bc26582c4318"
   },
   {
-    "url": "https://raw.githubusercontent.com/nutine/cs-kraptor/builds/OpenAnime.cs3",
+    "url": "https://raw.githubusercontent.com/etumen/cs-kraptor/builds/OpenAnime.cs3",
     "status": 1,
     "version": 25,
     "name": "OpenAnime",
@@ -925,7 +925,7 @@
     ],
     "description": "Anime izleme deneyiminizi zenginleştiren, hızlı ve etkileyici özelliklerle donatılmış, şık bir tasarıma sahip anime platformu. Anime izleme deneyiminiz, kolaylaştırıldı.",
     "fileSize": 67615,
-    "repositoryUrl": "https://github.com/nutine/cs-kraptor",
+    "repositoryUrl": "https://github.com/etumen/cs-kraptor",
     "language": "tr",
     "tvTypes": [
       "Anime",
@@ -936,7 +936,7 @@
     "fileHash": "sha256-eed28bebf342b67d1d5ae9b870c73c9acd0b6fd7bac1ffb7ff46bce6aaabc1f5"
   },
   {
-    "url": "https://raw.githubusercontent.com/nutine/cs-kraptor/builds/RareFilmm.cs3",
+    "url": "https://raw.githubusercontent.com/etumen/cs-kraptor/builds/RareFilmm.cs3",
     "status": 1,
     "version": 17,
     "name": "RareFilmm",
@@ -946,7 +946,7 @@
     ],
     "description": "The Cave of Forgotten Films",
     "fileSize": 29033,
-    "repositoryUrl": "https://github.com/nutine/cs-kraptor",
+    "repositoryUrl": "https://github.com/etumen/cs-kraptor",
     "language": "en",
     "tvTypes": [
       "Movie"
@@ -956,7 +956,7 @@
     "fileHash": "sha256-2b0f23614e8afc8e9452080ed3b116573d1a2a47e3441a0c54f9098e66c50abd"
   },
   {
-    "url": "https://raw.githubusercontent.com/nutine/cs-kraptor/builds/RecTV.cs3",
+    "url": "https://raw.githubusercontent.com/etumen/cs-kraptor/builds/RecTV.cs3",
     "status": 1,
     "version": 29,
     "name": "RecTV",
@@ -968,7 +968,7 @@
     ],
     "description": "RecTV,Türkiye’deki en popüler Çevrimiçi Medya Akış platformlarından biridir. Filmlerin, Canlı Sporların, Web Dizilerinin ve çok daha fazlasının keyfini ücretsiz çıkarın.",
     "fileSize": 54469,
-    "repositoryUrl": "https://github.com/nutine/cs-kraptor",
+    "repositoryUrl": "https://github.com/etumen/cs-kraptor",
     "language": "tr",
     "tvTypes": [
       "Movie",
@@ -980,7 +980,7 @@
     "fileHash": "sha256-a2ea4391eebfdece24b2152240535de3c6c55118b69a0cc52474f5b059021865"
   },
   {
-    "url": "https://raw.githubusercontent.com/nutine/cs-kraptor/builds/SeiCode.cs3",
+    "url": "https://raw.githubusercontent.com/etumen/cs-kraptor/builds/SeiCode.cs3",
     "status": 1,
     "version": 21,
     "name": "SeiCode",
@@ -991,7 +991,7 @@
     ],
     "description": "Seicode ile en yeni animeler keşfedin!",
     "fileSize": 34775,
-    "repositoryUrl": "https://github.com/nutine/cs-kraptor",
+    "repositoryUrl": "https://github.com/etumen/cs-kraptor",
     "language": "tr",
     "tvTypes": [
       "Anime"
@@ -1001,7 +1001,7 @@
     "fileHash": "sha256-fd6e628fded1f8e2a92488ae26bc01e854e96c6c70437a8181777cc9ceb5c708"
   },
   {
-    "url": "https://raw.githubusercontent.com/nutine/cs-kraptor/builds/SelcukFlix.cs3",
+    "url": "https://raw.githubusercontent.com/etumen/cs-kraptor/builds/SelcukFlix.cs3",
     "status": 1,
     "version": 47,
     "name": "SelcukFlix",
@@ -1011,7 +1011,7 @@
     ],
     "description": "Selcukflix'te her türden en yeni ve en popüler dizi ve filmleri izlemenin keyfini çıkarın. Aksiyondan romantiğe, bilim kurgudan dramaya, geniş kütüphanemizde herkes için bir şey var.",
     "fileSize": 64411,
-    "repositoryUrl": "https://github.com/nutine/cs-kraptor",
+    "repositoryUrl": "https://github.com/etumen/cs-kraptor",
     "language": "tr",
     "tvTypes": [
       "Movie",
@@ -1022,7 +1022,7 @@
     "fileHash": "sha256-7787b122e534c6f8e89011de6049a8011de492e095195ba363def27b30609e3a"
   },
   {
-    "url": "https://raw.githubusercontent.com/nutine/cs-kraptor/builds/SetFilmIzle.cs3",
+    "url": "https://raw.githubusercontent.com/etumen/cs-kraptor/builds/SetFilmIzle.cs3",
     "status": 1,
     "version": 38,
     "name": "SetFilmIzle",
@@ -1034,7 +1034,7 @@
     ],
     "description": "Setfilmizle sitemizde, donma yaşamadan Türkçe dublaj ve altyazılı filmleri ile dizileri muhteşem 1080p full HD kalitesinde izleyebilirsiniz.",
     "fileSize": 68303,
-    "repositoryUrl": "https://github.com/nutine/cs-kraptor",
+    "repositoryUrl": "https://github.com/etumen/cs-kraptor",
     "language": "tr",
     "tvTypes": [
       "Movie"
@@ -1044,7 +1044,7 @@
     "fileHash": "sha256-a76bfad44728993f9061ff45354fd481f9a2915bd2dab487fd31aab899187e58"
   },
   {
-    "url": "https://raw.githubusercontent.com/nutine/cs-kraptor/builds/SezonlukDizi.cs3",
+    "url": "https://raw.githubusercontent.com/etumen/cs-kraptor/builds/SezonlukDizi.cs3",
     "status": 1,
     "version": 37,
     "name": "SezonlukDizi",
@@ -1055,7 +1055,7 @@
     ],
     "description": "Güncel ve eski dizileri en iyi görüntü kalitesiyle bulabileceğiniz yabancı dizi izleme siteniz.",
     "fileSize": 88772,
-    "repositoryUrl": "https://github.com/nutine/cs-kraptor",
+    "repositoryUrl": "https://github.com/etumen/cs-kraptor",
     "language": "tr",
     "tvTypes": [
       "TvSeries"
@@ -1065,7 +1065,7 @@
     "fileHash": "sha256-72861b9fb497dfee0195a882c29207002145f81d2a1ff8c6950e354d539a6b92"
   },
   {
-    "url": "https://raw.githubusercontent.com/nutine/cs-kraptor/builds/SinemaCX.cs3",
+    "url": "https://raw.githubusercontent.com/etumen/cs-kraptor/builds/SinemaCX.cs3",
     "status": 1,
     "version": 33,
     "name": "SinemaCX",
@@ -1075,7 +1075,7 @@
     ],
     "description": "Güncel ve en iyi yabancı filmleri yüksek görüntü kalitesinde, Türkçe dublaj ve altyazı seçenekleriyle filmleri full izleyin.",
     "fileSize": 20828,
-    "repositoryUrl": "https://github.com/nutine/cs-kraptor",
+    "repositoryUrl": "https://github.com/etumen/cs-kraptor",
     "language": "tr",
     "tvTypes": [
       "Movie"
@@ -1085,7 +1085,7 @@
     "fileHash": "sha256-d36969b22997bc264e10544b607a0527d9efd0dab96f555c9be6ef833117fa90"
   },
   {
-    "url": "https://raw.githubusercontent.com/nutine/cs-kraptor/builds/SineWix.cs3",
+    "url": "https://raw.githubusercontent.com/etumen/cs-kraptor/builds/SineWix.cs3",
     "status": 1,
     "version": 30,
     "name": "SineWix",
@@ -1096,7 +1096,7 @@
     ],
     "description": "SineWix - Ücretsiz Film, Dizi ve Anime İzleme Uygulaması 5000+ HD İçerik, Türkçe Altyazılı, Otaku Dostu Anime Arşivi, Premium Kalite Yabancı Yapımlar",
     "fileSize": 69484,
-    "repositoryUrl": "https://github.com/nutine/cs-kraptor",
+    "repositoryUrl": "https://github.com/etumen/cs-kraptor",
     "language": "tr",
     "tvTypes": [
       "Movie",
@@ -1110,7 +1110,7 @@
     "fileHash": "sha256-f6b388e34ea41bd6abb356e371070913617808d00f8c9625d7cbad858711fe41"
   },
   {
-    "url": "https://raw.githubusercontent.com/nutine/cs-kraptor/builds/Sinezy.cs3",
+    "url": "https://raw.githubusercontent.com/etumen/cs-kraptor/builds/Sinezy.cs3",
     "status": 1,
     "version": 38,
     "name": "Sinezy",
@@ -1120,7 +1120,7 @@
     ],
     "description": "Yerli ve yabancı film izle! Türkçe Dublaj ve Alt Yazılı Seçenekleriyle full hd film izlemek için En çok tercih edilen adres!",
     "fileSize": 21309,
-    "repositoryUrl": "https://github.com/nutine/cs-kraptor",
+    "repositoryUrl": "https://github.com/etumen/cs-kraptor",
     "language": "tr",
     "tvTypes": [
       "Movie"
@@ -1130,7 +1130,7 @@
     "fileHash": "sha256-c0fd874b895605f77db1e94bc5b8953918376a15f93e9e1565095ffd3173bfed"
   },
   {
-    "url": "https://raw.githubusercontent.com/nutine/cs-kraptor/builds/TrAnimeIzle.cs3",
+    "url": "https://raw.githubusercontent.com/etumen/cs-kraptor/builds/TrAnimeIzle.cs3",
     "status": 1,
     "version": 11,
     "name": "TrAnimeIzle",
@@ -1140,7 +1140,7 @@
     ],
     "description": "Anime izle, Anime tv, birbirinden farklı ve güzel animeleri keyifle seyredebileceğiniz Türk anime severlerin en popüler türkçe anime izleme sitesidir.",
     "fileSize": 41177,
-    "repositoryUrl": "https://github.com/nutine/cs-kraptor",
+    "repositoryUrl": "https://github.com/etumen/cs-kraptor",
     "language": "tr",
     "tvTypes": [
       "Anime"
@@ -1150,7 +1150,7 @@
     "fileHash": "sha256-68f85490caaa6a23f5f09504c05698e76c0b780af6ef5db3d81d88eb3ee7e716"
   },
   {
-    "url": "https://raw.githubusercontent.com/nutine/cs-kraptor/builds/TurkAnime.cs3",
+    "url": "https://raw.githubusercontent.com/etumen/cs-kraptor/builds/TurkAnime.cs3",
     "status": 1,
     "version": 30,
     "name": "TurkAnime",
@@ -1161,7 +1161,7 @@
     ],
     "description": "Türk Anime TV - Türkiye'nin Online Anime izleme sitesi.",
     "fileSize": 61213,
-    "repositoryUrl": "https://github.com/nutine/cs-kraptor",
+    "repositoryUrl": "https://github.com/etumen/cs-kraptor",
     "language": "tr",
     "tvTypes": [
       "Anime",
@@ -1172,7 +1172,7 @@
     "fileHash": "sha256-3821c1a55e54fba240fa67965628e87bc140d3f6e6d68a5518c4ea56e44239c0"
   },
   {
-    "url": "https://raw.githubusercontent.com/nutine/cs-kraptor/builds/Turkdizileri.cs3",
+    "url": "https://raw.githubusercontent.com/etumen/cs-kraptor/builds/Turkdizileri.cs3",
     "status": 1,
     "version": 31,
     "name": "Turkdizileri",
@@ -1182,7 +1182,7 @@
     ],
     "description": "TRT1, Showtv, Kanal D ve daha fazla site tek bir eklentide birleşiyor.",
     "fileSize": 165395,
-    "repositoryUrl": "https://github.com/nutine/cs-kraptor",
+    "repositoryUrl": "https://github.com/etumen/cs-kraptor",
     "language": "tr",
     "tvTypes": [
       "Movie"
@@ -1192,7 +1192,7 @@
     "fileHash": "sha256-a9c5947bd827fddb57a114e469f1be9e890500645fbaf5c79c588c9be39beeaf"
   },
   {
-    "url": "https://raw.githubusercontent.com/nutine/cs-kraptor/builds/TvDiziler.cs3",
+    "url": "https://raw.githubusercontent.com/etumen/cs-kraptor/builds/TvDiziler.cs3",
     "status": 1,
     "version": 14,
     "name": "TvDiziler",
@@ -1202,7 +1202,7 @@
     ],
     "description": "Tv Diziler Ücretsiz yerli dizi izleme sitesi en popüler dizileri tek parça hd kalitesiyle ve reklamsız bedava olarak buradan tv dizileri izleyin.",
     "fileSize": 30710,
-    "repositoryUrl": "https://github.com/nutine/cs-kraptor",
+    "repositoryUrl": "https://github.com/etumen/cs-kraptor",
     "language": "tr",
     "tvTypes": [
       "TvSeries"
@@ -1212,7 +1212,7 @@
     "fileHash": "sha256-f5dd4a9b71e3dce9a0db7c7038468b80a7c740cfa7dc66792f741892778d18ec"
   },
   {
-    "url": "https://raw.githubusercontent.com/nutine/cs-kraptor/builds/UgurFilm.cs3",
+    "url": "https://raw.githubusercontent.com/etumen/cs-kraptor/builds/UgurFilm.cs3",
     "status": 1,
     "version": 34,
     "name": "UgurFilm",
@@ -1223,7 +1223,7 @@
     ],
     "description": "Yabancı film izle, Türkçe dublaj ve Türkçe altyazılı film seçenekleriyle 720p ve 1080p HD kalitesinde film izle - Uğur Film full hd film izle.",
     "fileSize": 35531,
-    "repositoryUrl": "https://github.com/nutine/cs-kraptor",
+    "repositoryUrl": "https://github.com/etumen/cs-kraptor",
     "language": "tr",
     "tvTypes": [
       "Movie"
@@ -1233,7 +1233,7 @@
     "fileHash": "sha256-b806b708bf500c01dd124b8ab70d1f17009917c5f4a4aca72987fdc46d1feaf1"
   },
   {
-    "url": "https://raw.githubusercontent.com/nutine/cs-kraptor/builds/WebDramaTurkey.cs3",
+    "url": "https://raw.githubusercontent.com/etumen/cs-kraptor/builds/WebDramaTurkey.cs3",
     "status": 1,
     "version": 37,
     "name": "WebDramaTurkey",
@@ -1245,7 +1245,7 @@
     ],
     "description": "Web Drama Turkey - Kore, Çin, Japon Dizileri, Filmleri ve Animeler",
     "fileSize": 57456,
-    "repositoryUrl": "https://github.com/nutine/cs-kraptor",
+    "repositoryUrl": "https://github.com/etumen/cs-kraptor",
     "language": "tr",
     "tvTypes": [
       "AsianDrama"
@@ -1255,7 +1255,7 @@
     "fileHash": "sha256-ca17951c24f8ef40f08181e3ebfe3b5748942196ce7acffe3f10cc6c4b5185a8"
   },
   {
-    "url": "https://raw.githubusercontent.com/nutine/cs-kraptor/builds/WebteIzle.cs3",
+    "url": "https://raw.githubusercontent.com/etumen/cs-kraptor/builds/WebteIzle.cs3",
     "status": 0,
     "version": 53,
     "name": "WebteIzle",
@@ -1266,7 +1266,7 @@
     ],
     "description": "Her türlü filmi ister dublaj ister altyazılı, en kaliteli bir şekilde izleyebileceğiniz arşivi en geniş gerçek film izleme siteniz.",
     "fileSize": 81122,
-    "repositoryUrl": "https://github.com/nutine/cs-kraptor",
+    "repositoryUrl": "https://github.com/etumen/cs-kraptor",
     "language": "tr",
     "tvTypes": [
       "Movie"
@@ -1276,7 +1276,7 @@
     "fileHash": "sha256-4d5a70aadeb3a9aabd07af6f22981c186acd34a1dd639cbe06bba4cb0ee1e5b1"
   },
   {
-    "url": "https://raw.githubusercontent.com/nutine/cs-kraptor/builds/WFilmizle.cs3",
+    "url": "https://raw.githubusercontent.com/etumen/cs-kraptor/builds/WFilmizle.cs3",
     "status": 1,
     "version": 20,
     "name": "WFilmizle",
@@ -1286,7 +1286,7 @@
     ],
     "description": "Yerli ve yabancı film izle, Türkçe dublaj ve altyazı seçenekleriyle en yeni ve unutulmamış olan filmleri Full HD kalitesinde online izleyebilirsiniz.",
     "fileSize": 50741,
-    "repositoryUrl": "https://github.com/nutine/cs-kraptor",
+    "repositoryUrl": "https://github.com/etumen/cs-kraptor",
     "language": "tr",
     "tvTypes": [
       "Movie"
@@ -1296,7 +1296,7 @@
     "fileHash": "sha256-246e357eff85987bc67b0514987289aa5c3c3ebf209d223156c3fe45d3440871"
   },
   {
-    "url": "https://raw.githubusercontent.com/nutine/cs-kraptor/builds/YabanciDizi.cs3",
+    "url": "https://raw.githubusercontent.com/etumen/cs-kraptor/builds/YabanciDizi.cs3",
     "status": 1,
     "version": 16,
     "name": "YabanciDizi",
@@ -1306,7 +1306,7 @@
     ],
     "description": "Son çıkan yabancı dizi ve filmleri yabancidizi' de izle. En yeni yabancı film ve diziler, türkçe altyazılı yada dublaj olarak 1080p kalitesinde hd izle.",
     "fileSize": 39597,
-    "repositoryUrl": "https://github.com/nutine/cs-kraptor",
+    "repositoryUrl": "https://github.com/etumen/cs-kraptor",
     "language": "tr",
     "tvTypes": [
       "TvSeries"
@@ -1316,7 +1316,7 @@
     "fileHash": "sha256-7e7addd3bd1dea58928da5c2f3c9abb0e84f401b076272942ceae1b110eaab14"
   },
   {
-    "url": "https://raw.githubusercontent.com/nutine/cs-kraptor/builds/YeniKaynak.cs3",
+    "url": "https://raw.githubusercontent.com/etumen/cs-kraptor/builds/YeniKaynak.cs3",
     "status": 1,
     "version": 8,
     "name": "YeniKaynak",
@@ -1326,7 +1326,7 @@
     ],
     "description": "İran Sinemasının Yeni Adresi - İran Filmleri, İran Dizileri, İslami Filmler, Dini Filmler, Dini Sinema, İslami Diziler,...",
     "fileSize": 21423,
-    "repositoryUrl": "https://github.com/nutine/cs-kraptor",
+    "repositoryUrl": "https://github.com/etumen/cs-kraptor",
     "language": "tr",
     "tvTypes": [
       "Movie",
@@ -1337,7 +1337,7 @@
     "fileHash": "sha256-c651cce0ff51551116bced370e8ed3bb0fb48b3f67692cbaaf52c2a1bc3906f0"
   },
   {
-    "url": "https://raw.githubusercontent.com/nutine/cs-kraptor/builds/Youtube.cs3",
+    "url": "https://raw.githubusercontent.com/etumen/cs-kraptor/builds/Youtube.cs3",
     "status": 1,
     "version": 37,
     "name": "Youtube",
@@ -1349,7 +1349,7 @@
     ],
     "description": "Youtube",
     "fileSize": 102213,
-    "repositoryUrl": "https://github.com/nutine/cs-kraptor",
+    "repositoryUrl": "https://github.com/etumen/cs-kraptor",
     "language": "tr",
     "tvTypes": [
       "Movie",
@@ -1362,7 +1362,7 @@
     "fileHash": "sha256-f639d0c3059a052f65781ddce5fab0371a4c64aa9f87b1efe361fcf9feda20d5"
   },
   {
-    "url": "https://raw.githubusercontent.com/nutine/cs-kraptor/builds/YTS.cs3",
+    "url": "https://raw.githubusercontent.com/etumen/cs-kraptor/builds/YTS.cs3",
     "status": 1,
     "version": 37,
     "name": "YTS",
@@ -1374,7 +1374,7 @@
     ],
     "description": "YTS Filmleri 4K Desteği Otomatik altyazı ve film açıklaması (Torrent)",
     "fileSize": 83308,
-    "repositoryUrl": "https://github.com/nutine/cs-kraptor",
+    "repositoryUrl": "https://github.com/etumen/cs-kraptor",
     "language": "tr",
     "tvTypes": [
       "Torrent"
