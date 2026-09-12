@@ -1,0 +1,9 @@
+{
+  "iconUrl": "https://raw.githubusercontent.com/etumen/cs-kraptor/refs/heads/master/.github/icons/logo/kraptorfavicon.png",
+  "name": "Kraptor Recovered 2026 | etumen",
+  "description": "Kraptor'un temizlenmeden önceki derlenmiş eklentilerinden kurtarılan arşiv. Paketler etumen/cs-kraptor builds-recovered dalından gelir.",
+  "manifestVersion": 1,
+  "pluginLists": [
+    "https://raw.githubusercontent.com/etumen/cs-kraptor/refs/heads/builds-recovered/plugins.json"
+  ]
+}
