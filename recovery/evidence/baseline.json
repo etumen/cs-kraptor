@@ -1,0 +1,18 @@
+{
+  "branches": {
+    "master": "5294e1fa356e507ad26d1c058a61dcc468a3575c",
+    "builds-recovered": "9e5b2305ee67c0d1a263695025c8991f8b7609b4",
+    "legacy-2025": "3bad0a9f43d070979cc2c89a2dca0a3b6bc95150"
+  },
+  "packageSha256": "6e0d6f48a759ab45e1a863eb2c580fc6b60f34434a6fe0c40f18b9655049f9ed",
+  "packageBytes": 138860,
+  "manifest": {
+    "iconUrl": "https://raw.githubusercontent.com/etumen/cs-kraptor/refs/heads/master/.github/icons/logo/kraptorfavicon.png",
+    "name": "Kraptor Recovered 2026 | etumen",
+    "description": "Kraptor'un temizlenmeden \u00f6nceki derlenmi\u015f eklentilerinden kurtar\u0131lan ar\u015fiv. Paketler etumen/cs-kraptor builds-recovered dal\u0131ndan gelir.",
+    "manifestVersion": 1,
+    "pluginLists": [
+      "https://raw.githubusercontent.com/etumen/cs-kraptor/refs/heads/builds-recovered/plugins.json"
+    ]
+  }
+}
