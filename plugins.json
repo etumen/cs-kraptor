@@ -657,23 +657,24 @@
   {
     "url": "https://raw.githubusercontent.com/etumen/cs-kraptor/builds-recovered/FullHDFilmizlesene.cs3",
     "status": 1,
-    "version": 63,
+    "version": 73,
     "name": "FullHDFilmizlesene",
     "internalName": "FullHDFilmizlesene",
     "authors": [
       "kraptor",
-      "ByAyzen"
+      "ByAyzen",
+      "etumen-recovery"
     ],
     "description": "Sinema zevkini evinize kadar getirdik. Türkiye'nin lider Film sitesinde, en yeni filmleri Full HD izleyin.",
-    "fileSize": 138860,
+    "fileSize": 45085,
     "repositoryUrl": "https://github.com/etumen/cs-kraptor",
     "language": "tr",
     "tvTypes": [
       "Movie"
     ],
-    "iconUrl": "https://www.google.com/s2/favicons?sz=64&domain=www.fullhdfilmizlesene.de",
+    "iconUrl": "https://www.google.com/s2/favicons?sz=64&domain=fullhdfilmizlesene.now",
     "apiVersion": 1,
-    "fileHash": "sha256-6e0d6f48a759ab45e1a863eb2c580fc6b60f34434a6fe0c40f18b9655049f9ed"
+    "fileHash": "sha256-1a9dc8203fa9c8ea338f7016dd10d343ac5adb323e80a7a096fb47a765b4b202"
   },
   {
     "url": "https://raw.githubusercontent.com/etumen/cs-kraptor/builds-recovered/GinikoCanli.cs3",
