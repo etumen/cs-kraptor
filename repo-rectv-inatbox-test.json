@@ -1,0 +1,8 @@
+﻿{
+    "name":  "RecTV + InatBox Audit Test | etumen",
+    "description":  "Recovered baseline cihaz testi. RecTV v30 / InatBox v55 test sürümü.",
+    "manifestVersion":  1,
+    "pluginLists":  [
+                        "https://raw.githubusercontent.com/etumen/cs-kraptor/fix/rectv-inatbox-audit-20260913/plugins-rectv-inatbox-test.json"
+                    ]
+}
