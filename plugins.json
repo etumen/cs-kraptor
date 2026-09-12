@@ -2,25 +2,24 @@
   {
     "url": "https://raw.githubusercontent.com/etumen/cs-kraptor/builds-recovered/AnimeciX.cs3",
     "status": 1,
-    "version": 76,
+    "version": 77,
     "name": "AnimeciX",
     "internalName": "AnimeciX",
     "authors": [
-      "kraptor",
-      "ByAyzen",
+      "keyiflerolsun",
       "inatchii",
       "JustRelaxable"
     ],
     "description": "AnimeciX, animeleri keşfedebileceğiniz ve animeler hakkında her şeyi öğrenebileceğiniz bir paylaşım platformudur.",
-    "fileSize": 155308,
+    "fileSize": 27656,
     "repositoryUrl": "https://github.com/etumen/cs-kraptor",
     "language": "tr",
     "tvTypes": [
       "Anime"
     ],
-    "iconUrl": "https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=http://animecix.net&size=16",
+    "iconUrl": "https://animecix.tv/favicon.ico",
     "apiVersion": 1,
-    "fileHash": "sha256-5e9d84839001889ed0549ecdcc7d038cee3f2b20d91f4cb110e50741db7bc790"
+    "fileHash": "sha256-1bdd34835ddb3e7650c6eff1d9f0afe0dd36c08d60b873d9ed721d73cbe8a111"
   },
   {
     "url": "https://raw.githubusercontent.com/etumen/cs-kraptor/builds-recovered/Animeler.cs3",
@@ -594,25 +593,23 @@
   {
     "url": "https://raw.githubusercontent.com/etumen/cs-kraptor/builds-recovered/FilmMakinesi.cs3",
     "status": 1,
-    "version": 67,
+    "version": 68,
     "name": "FilmMakinesi",
     "internalName": "FilmMakinesi",
     "authors": [
-      "kraptor",
-      "usdogu",
-      "nikyokki"
+      "keyiflerolsun",
+      "usdogu"
     ],
     "description": "Film Makinesi, en yeni ve en güncel filmleri sitemizde full HD kalite farkı ile izleyebilirsiniz. HD film izle denildiğinde akla gelen en kaliteli film izleme sitesi.",
-    "fileSize": 74369,
+    "fileSize": 34453,
     "repositoryUrl": "https://github.com/etumen/cs-kraptor",
     "language": "tr",
     "tvTypes": [
-      "Movie",
-      "TvSeries"
+      "Movie"
     ],
-    "iconUrl": "https://t3.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://filmmakinesi.tv&size=128",
+    "iconUrl": "https://www.google.com/s2/favicons?domain=filmmakinesi.film&sz=%size%",
     "apiVersion": 1,
-    "fileHash": "sha256-e7e8d803888adcc18314885a8c9fc3f6538ab33ac79145c439c48b8b6f95269d"
+    "fileHash": "sha256-728dbbe402f461cd12f004dee1822dcaafe72d68ee23c514c45237c3d52f2398"
   },
   {
     "url": "https://raw.githubusercontent.com/etumen/cs-kraptor/builds-recovered/FilmModu.cs3",
@@ -699,23 +696,24 @@
   {
     "url": "https://raw.githubusercontent.com/etumen/cs-kraptor/builds-recovered/HDFilmCehennemi.cs3",
     "status": 1,
-    "version": 86,
+    "version": 87,
     "name": "HDFilmCehennemi",
     "internalName": "HDFilmCehennemi",
     "authors": [
-      "kraptor"
+      "hexated",
+      "keyiflerolsun"
     ],
-    "description": "HDFilmCehennemi - Türkiye'nin en hızlı hd film izleme sitesi. Tek ve gerçek HDFilmCehennemi sitesi.",
-    "fileSize": 65617,
+    "description": "Türkiye'nin en hızlı hd film izleme sitesi",
+    "fileSize": 33181,
     "repositoryUrl": "https://github.com/etumen/cs-kraptor",
     "language": "tr",
     "tvTypes": [
       "Movie",
       "TvSeries"
     ],
-    "iconUrl": "https://www.google.com/s2/favicons?sz=128&domain=http://hdfilmcehennemi.nl",
+    "iconUrl": "https://www.google.com/s2/favicons?domain=hdfilmcehennemi.com&sz=%size%",
     "apiVersion": 1,
-    "fileHash": "sha256-48b39b291d53b2da338de0a85482aaccfff201033d8da798635739ddc68acf10"
+    "fileHash": "sha256-06c59e49af03de66362d64ad1324da4c37acf471d0e604a9fde72fdaaef03fdb"
   },
   {
     "url": "https://raw.githubusercontent.com/etumen/cs-kraptor/builds-recovered/HDFilmDelisi.cs3",
