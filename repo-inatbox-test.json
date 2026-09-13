@@ -1,0 +1,8 @@
+{
+    "name":  "InatBox Recovery Test v55 | etumen",
+    "description":  "İzole InatBox cihaz testi",
+    "manifestVersion":  1,
+    "pluginLists":  [
+                        "https://raw.githubusercontent.com/etumen/cs-kraptor/fix/inatbox-test-20260913/plugins-inatbox-test.json"
+                    ]
+}

@@ -1,0 +1,23 @@
+{
+    "url":  "https://raw.githubusercontent.com/etumen/cs-kraptor/fix/inatbox-test-20260913/InatBox.cs3",
+    "status":  3,
+    "version":  55,
+    "name":  "InatBox",
+    "internalName":  "InatBox",
+    "authors":  [
+                    "JustRelaxable",
+                    "keyiflerolsun",
+                    "etumen-test"
+                ],
+    "description":  "[TEST] Feroxx güncel InatBox paketi; yalnız test için.",
+    "fileSize":  38456,
+    "repositoryUrl":  "https://github.com/etumen/cs-kraptor",
+    "language":  "tr",
+    "tvTypes":  [
+                    "Movie",
+                    "TvSeries",
+                    "Live"
+                ],
+    "apiVersion":  1,
+    "fileHash":  "sha256-466951097b0cfc4ca49dd0472b484089477bd9a1c875798e2a04fb8725613bea"
+}
