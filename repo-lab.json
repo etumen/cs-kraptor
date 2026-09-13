@@ -4,6 +4,6 @@
   "description": "Kalıcı test deposu. Yeni veya onarılan sağlayıcılar burada denenir; çalışanlar Curated depoya terfi eder.",
   "manifestVersion": 1,
   "pluginLists": [
-    "https://raw.githubusercontent.com/etumen/cs-kraptor/master/plugins-lab.json"
+    "https://raw.githubusercontent.com/etumen/cs-kraptor/fix/inatbox-test-20260913/plugins-inatbox-test.json"
   ]
 }
