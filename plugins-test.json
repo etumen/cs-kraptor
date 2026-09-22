@@ -1,21 +1,23 @@
-﻿{
-    "url":  "https://raw.githubusercontent.com/etumen/cs-kraptor/refs/heads/test-dramadizilerim-v4-20260922/DramaDizilerim.cs3",
-    "status":  1,
-    "version":  4,
-    "name":  "DramaDizilerim",
-    "internalName":  "DramaDizilerim",
-    "authors":  [
-                    "blackhope01",
-                    "etumen"
-                ],
-    "description":  "DramaDizilerim kısa dizi sağlayıcısı - güncel lazy-player/direct-stream düzeltmesi.",
-    "fileSize":  35031,
-    "repositoryUrl":  "https://github.com/etumen/cs-kraptor",
-    "language":  "tr",
-    "tvTypes":  [
-                    "TvSeries"
-                ],
-    "iconUrl":  "https://www.google.com/s2/favicons?domain=https://dramadizilerim.com\u0026sz=128",
-    "apiVersion":  1,
-    "fileHash":  "sha256-656fa7a6a36b32db256b821be9359cbe63d881623757e72b6f47074d4a0204a7"
-}
+[
+    {
+        "url":  "https://raw.githubusercontent.com/etumen/cs-kraptor/refs/heads/test-dramadizilerim-v4-20260922/DramaDizilerim.cs3",
+        "status":  1,
+        "version":  4,
+        "name":  "DramaDizilerim",
+        "internalName":  "DramaDizilerim",
+        "authors":  [
+                        "blackhope01",
+                        "etumen"
+                    ],
+        "description":  "DramaDizilerim kısa dizi sağlayıcısı - güncel lazy-player/direct-stream düzeltmesi.",
+        "fileSize":  35031,
+        "repositoryUrl":  "https://github.com/etumen/cs-kraptor",
+        "language":  "tr",
+        "tvTypes":  [
+                        "TvSeries"
+                    ],
+        "iconUrl":  "https://www.google.com/s2/favicons?domain=https://dramadizilerim.com\u0026sz=128",
+        "apiVersion":  1,
+        "fileHash":  "sha256-656fa7a6a36b32db256b821be9359cbe63d881623757e72b6f47074d4a0204a7"
+    }
+]
