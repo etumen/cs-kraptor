@@ -1,0 +1,23 @@
+[
+    {
+        "url":  "https://raw.githubusercontent.com/etumen/cs-kraptor/refs/heads/test-dramadizilerim-v4-20260922/DramaDizilerim.cs3",
+        "status":  1,
+        "version":  5,
+        "name":  "DramaDizilerim Test",
+        "internalName":  "DramaDizilerim",
+        "authors":  [
+                        "blackhope01",
+                        "etumen"
+                    ],
+        "description":  "Temporary v5 physical test: lazy-player + direct-stream recovery.",
+        "fileSize":  35038,
+        "repositoryUrl":  "https://github.com/etumen/cs-kraptor",
+        "language":  "tr",
+        "tvTypes":  [
+                        "TvSeries"
+                    ],
+        "iconUrl":  "https://www.google.com/s2/favicons?domain=dramadizilerim.com\u0026sz=128",
+        "apiVersion":  1,
+        "fileHash":  "sha256-0c82558535937d2da7e477f2cc0ef2f4b8f9636a5ebe5d189ce476b9235ece51"
+    }
+]
