@@ -1,0 +1,8 @@
+{
+    "name":  "DramaDizilerim Test v4b",
+    "description":  "Fresh-cache test repository.",
+    "manifestVersion":  1,
+    "pluginLists":  [
+                        "https://raw.githubusercontent.com/etumen/cs-kraptor/refs/heads/test-dramadizilerim-v4-20260922/plugins-test-v4.json"
+                    ]
+}
