@@ -1,0 +1,8 @@
+{
+    "name":  "DramaDizilerim v6 Test | etumen",
+    "description":  "DramaDizilerim v6 extractor recovery",
+    "manifestVersion":  1,
+    "pluginLists":  [
+                        "https://raw.githubusercontent.com/etumen/cs-kraptor/refs/heads/dramadizilerim-test-20260922/plugins-drama-v6.json"
+                    ]
+}
