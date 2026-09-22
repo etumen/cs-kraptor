@@ -1,0 +1,8 @@
+﻿{
+    "name":  "DramaDizilerim Test | etumen",
+    "description":  "DramaDizilerim extractor recovery test",
+    "manifestVersion":  1,
+    "pluginLists":  [
+                        "https://raw.githubusercontent.com/etumen/cs-kraptor/refs/heads/dramadizilerim-test-20260922/plugins-drama-test.json"
+                    ]
+}
