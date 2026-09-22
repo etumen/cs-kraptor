@@ -1,0 +1,8 @@
+﻿{
+    "name":  "DramaDizilerim Test v4",
+    "description":  "Temporary physical-test repository for recovered DramaDizilerim provider.",
+    "manifestVersion":  1,
+    "pluginLists":  [
+                        "https://raw.githubusercontent.com/etumen/cs-kraptor/refs/heads/test-dramadizilerim-v4-20260922/plugins-test.json"
+                    ]
+}
