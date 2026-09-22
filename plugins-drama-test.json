@@ -1,4 +1,4 @@
-﻿{
+[{
     "url":  "https://raw.githubusercontent.com/etumen/cs-kraptor/refs/heads/dramadizilerim-test-20260922/DramaDizilerim.cs3",
     "status":  1,
     "version":  6,
@@ -15,6 +15,6 @@
     "tvTypes":  [
                     "TvSeries"
                 ],
-    "iconUrl":  "https://www.google.com/s2/favicons?domain=https://dramadizilerim.com\u0026sz=%size%",
+    "iconUrl":  "https://www.google.com/s2/favicons?domain=dramadizilerim.com\u0026sz=%size%",
     "fileHash":  "sha256-41e35bf8f51b02b7d467bae66cd7044bd7008290b47d13180d71529c2e64849e"
-}
+}]
