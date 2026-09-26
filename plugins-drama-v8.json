@@ -1,0 +1,18 @@
+[
+  {
+    "url": "https://raw.githubusercontent.com/etumen/cs-kraptor/refs/heads/dramadizilerim-test-20260922/DramaDizilerim.cs3",
+    "status": 1,
+    "version": 8,
+    "name": "DramaDizilerim",
+    "internalName": "DramaDizilerim",
+    "authors": ["blackhope01", "etumen"],
+    "description": "NetShort, DramaBox, ReelShort, FreeReels, GoodShort, FlexTV ve ShortMax; v8 local retry/cache relay test.",
+    "fileSize": 51535,
+    "repositoryUrl": "https://github.com/etumen/cs-kraptor",
+    "language": "tr",
+    "tvTypes": ["TvSeries"],
+    "iconUrl": "https://www.google.com/s2/favicons?domain=dramadizilerim.com&sz=%size%",
+    "apiVersion": 1,
+    "fileHash": "sha256-3629dbe97aed0cc8d8a66530611df16d58f61deb3a592f36e235acfe638d92d3"
+  }
+]

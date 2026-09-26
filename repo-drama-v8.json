@@ -1,0 +1,8 @@
+{
+  "name": "DramaDizilerim v8 Relay Test | etumen",
+  "description": "DramaDizilerim v8 local HLS retry/cache relay test",
+  "manifestVersion": 1,
+  "pluginLists": [
+    "https://raw.githubusercontent.com/etumen/cs-kraptor/refs/heads/dramadizilerim-test-20260922/plugins-drama-v8.json"
+  ]
+}
