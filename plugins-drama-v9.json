@@ -1,0 +1,18 @@
+[
+  {
+    "url": "https://raw.githubusercontent.com/etumen/cs-kraptor/refs/heads/dramadizilerim-test-20260922/DramaDizilerim.cs3",
+    "status": 1,
+    "version": 9,
+    "name": "DramaDizilerimV8Test",
+    "internalName": "DramaDizilerim",
+    "authors": ["blackhope01", "etumen"],
+    "description": "Isolated local HLS retry/cache relay validation build.",
+    "fileSize": 51542,
+    "repositoryUrl": "https://github.com/etumen/cs-kraptor",
+    "language": "tr",
+    "tvTypes": ["TvSeries"],
+    "iconUrl": "https://www.google.com/s2/favicons?domain=dramadizilerim.com&sz=%size%",
+    "apiVersion": 1,
+    "fileHash": "sha256-37ea5127665cb309a609ffb71f2dfdbd821008db932e2e1938a1d437627d799b"
+  }
+]

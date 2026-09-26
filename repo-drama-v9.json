@@ -1,0 +1,8 @@
+{
+  "name": "DramaDizilerim Relay Isolated Test | etumen",
+  "description": "Unique-name relay validation build",
+  "manifestVersion": 1,
+  "pluginLists": [
+    "https://raw.githubusercontent.com/etumen/cs-kraptor/refs/heads/dramadizilerim-test-20260922/plugins-drama-v9.json"
+  ]
+}
