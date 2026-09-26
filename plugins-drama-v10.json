@@ -1,0 +1,18 @@
+[
+  {
+    "url": "https://raw.githubusercontent.com/etumen/cs-kraptor/refs/heads/dramadizilerim-test-20260922/DramaDizilerim.cs3",
+    "status": 1,
+    "version": 10,
+    "name": "DramaDizilerimV8Test",
+    "internalName": "DramaDizilerim",
+    "authors": ["blackhope01", "etumen"],
+    "description": "Relay + real vertical episode list validation build.",
+    "fileSize": 52224,
+    "repositoryUrl": "https://github.com/etumen/cs-kraptor",
+    "language": "tr",
+    "tvTypes": ["TvSeries"],
+    "iconUrl": "https://www.google.com/s2/favicons?domain=dramadizilerim.com&sz=%size%",
+    "apiVersion": 1,
+    "fileHash": "sha256-1bbfa553a21e2a28d17ebe8c64d991248c573bc8b0851aea8717ac804da18da7"
+  }
+]
