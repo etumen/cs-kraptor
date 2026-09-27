@@ -11,7 +11,7 @@ on:
       - "settings.gradle.kts"
       - "gradle.properties"
       - "gradlew"
-      - "gradle/wrapper/**"
+      - "gradle/**"
       - ".github/workflows/netshort-v1.yml"
   workflow_dispatch:
 
