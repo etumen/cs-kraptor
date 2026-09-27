@@ -41,11 +41,14 @@ jobs:
         with:
           packages: "platform-tools platforms;android-36 build-tools;36.0.0"
 
+      - name: Set up Gradle
+        uses: gradle/actions/setup-gradle@v6.3.0
+        with:
+          gradle-version: "9.2.0"
+
       - name: Build NetShort cs3
         run: |
-          sed -i 's/\r$//' gradlew
-          chmod +x gradlew
-          ./gradlew :NetShort:make --stacktrace --no-daemon
+          gradle :NetShort:make --stacktrace --no-daemon
           find NetShort/build -maxdepth 5 -type f -print
 
       - name: Upload NetShort cs3
