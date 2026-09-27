@@ -1385,15 +1385,15 @@
   {
       "url":  "https://raw.githubusercontent.com/etumen/cs-kraptor/builds-recovered/DramaDizilerim.cs3",
       "status":  1,
-      "version":  7,
+      "version":  11,
       "name":  "DramaDizilerim",
       "internalName":  "DramaDizilerim",
       "authors":  [
                       "blackhope01",
                       "etumen"
                   ],
-      "description":  "NetShort, DramaBox, ReelShort, FreeReels, GoodShort, FlexTV ve ShortMax kisa dizileri icin guncel DramaDizilerim saglayicisi.",
-      "fileSize":  35243,
+      "description":  "NetShort, DramaBox, ReelShort, FreeReels, GoodShort, FlexTV, ShortMax, DramaBite, StarShort ve MoboReels; ShortMax yerel retry/cache relay ve dikey bolum destegi.",
+      "fileSize":  52306,
       "repositoryUrl":  "https://github.com/etumen/cs-kraptor",
       "language":  "tr",
       "tvTypes":  [
@@ -1401,6 +1401,6 @@
                   ],
       "iconUrl":  "https://www.google.com/s2/favicons?domain=dramadizilerim.com\u0026sz=%size%",
       "apiVersion":  1,
-      "fileHash":  "sha256-521b102f87dedd9ef3aa1b35945e4102aea07e8a1437a35b4131b6e014b9f559"
+      "fileHash":  "sha256-f85d9942251c819a673718b3c82475ed2302301ca18b8231428072ad57c26192"
   }
 ]
