@@ -5,7 +5,13 @@ on:
     branches:
       - feat/netshort-v1
     paths:
+      - "NetShort/**"
       - "netshort-lab/**"
+      - "build.gradle.kts"
+      - "settings.gradle.kts"
+      - "gradle.properties"
+      - "gradlew"
+      - "gradle/wrapper/**"
       - ".github/workflows/netshort-v1.yml"
   workflow_dispatch:
 
@@ -13,12 +19,38 @@ permissions:
   contents: read
 
 jobs:
-  probe:
+  verify:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 15
     steps:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Probe NetShort public web contract
+      - name: Verify NetShort direct public contract
         run: python3 netshort-lab/probe_netshort.py
+
+      - name: Set up Java 17
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "17"
+          cache: gradle
+
+      - name: Set up Android SDK
+        uses: android-actions/setup-android@v3
+
+      - name: Install Android API 36
+        run: sdkmanager "platforms;android-36" "build-tools;36.0.0"
+
+      - name: Build NetShort cs3
+        run: |
+          chmod +x gradlew
+          ./gradlew :NetShort:make --stacktrace --no-daemon
+          find NetShort/build -type f -maxdepth 5 -print
+
+      - name: Upload NetShort cs3
+        uses: actions/upload-artifact@v4
+        with:
+          name: netshort-v1-cs3
+          path: NetShort/build/**/*.cs3
+          if-no-files-found: error
