@@ -6,7 +6,7 @@
     "name": "DramaDizilerimV8Test",
     "internalName": "DramaDizilerim",
     "authors": ["blackhope01", "etumen"],
-    "description": "Relay + real vertical episode list validation build.",
+    "description": "Relay + vertical episode list validation build.",
     "fileSize": 52224,
     "repositoryUrl": "https://github.com/etumen/cs-kraptor",
     "language": "tr",
