@@ -1,0 +1,18 @@
+[
+  {
+    "url": "https://raw.githubusercontent.com/etumen/cs-kraptor/refs/heads/dramadizilerim-test-20260922/DramaDizilerim.cs3",
+    "status": 1,
+    "version": 12,
+    "name": "DramaDizilerimV12Test",
+    "internalName": "DramaDizilerim",
+    "authors": ["blackhope01", "etumen"],
+    "description": "Sequential ShortMax relay prefetch with retry backoff.",
+    "fileSize": 51127,
+    "repositoryUrl": "https://github.com/etumen/cs-kraptor",
+    "language": "tr",
+    "tvTypes": ["TvSeries"],
+    "iconUrl": "https://www.google.com/s2/favicons?domain=dramadizilerim.com&sz=%size%",
+    "apiVersion": 1,
+    "fileHash": "sha256-14e9dabcbb1c37822379da7132bbc84043b96d0f6935da6536c2ff091f410dc8"
+  }
+]
