@@ -1,0 +1,8 @@
+{
+  "name": "DramaDizilerim v10b Episode Test | etumen",
+  "description": "Relay + vertical episode list validation",
+  "manifestVersion": 1,
+  "pluginLists": [
+    "https://raw.githubusercontent.com/etumen/cs-kraptor/refs/heads/dramadizilerim-test-20260922/plugins-drama-v10b.json"
+  ]
+}
