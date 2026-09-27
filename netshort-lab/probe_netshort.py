@@ -208,4 +208,115 @@ for qs in ["keyword=Tahta", "query=Tahta", "q=Tahta", "search=Tahta"]:
     except Exception as ex:
         print("SEARCH_ROUTE", qs, "ERROR", type(ex).__name__, str(ex))
 
+
+def provider_enclosing_json_object(text, target_index):
+    stack = []
+    in_string = False
+    escaped = False
+    for i, ch in enumerate(text[:target_index + 1]):
+        if in_string:
+            if escaped:
+                escaped = False
+            elif ch == "\\":
+                escaped = True
+            elif ch == '"':
+                in_string = False
+            continue
+        if ch == '"':
+            in_string = True
+        elif ch == "{":
+            stack.append(i)
+        elif ch == "}" and stack:
+            stack.pop()
+    if not stack:
+        return None
+    start = stack[-1]
+    depth = 0
+    in_string = False
+    escaped = False
+    for i in range(start, len(text)):
+        ch = text[i]
+        if in_string:
+            if escaped:
+                escaped = False
+            elif ch == "\\":
+                escaped = True
+            elif ch == '"':
+                in_string = False
+            continue
+        if ch == '"':
+            in_string = True
+        elif ch == "{":
+            depth += 1
+        elif ch == "}":
+            depth -= 1
+            if depth == 0:
+                return text[start:i + 1]
+    return None
+
+def provider_extract_objects(text, marker):
+    out = []
+    seen = set()
+    pos = 0
+    while True:
+        idx = text.find(marker, pos)
+        if idx < 0:
+            break
+        raw = provider_enclosing_json_object(text, idx)
+        if raw and raw not in seen:
+            seen.add(raw)
+            try:
+                out.append(json.loads(raw))
+            except Exception:
+                pass
+        pos = idx + len(marker)
+    return out
+
+# Exercise the same structural assumptions used by NetShort.kt.
+detail_objs = provider_extract_objects(first["rsc"], '"videoEpisodeInfos"')
+detail_obj = next(
+    (o for o in detail_objs
+     if isinstance(o, dict)
+     and isinstance(o.get("videoEpisodeInfos"), list)
+     and o.get("shortPlayName")),
+    None,
+)
+assert detail_obj is not None, "provider-style detail object extraction failed"
+assert len(detail_obj["videoEpisodeInfos"]) == 45, "provider-style episode list count mismatch"
+provider_free = [e for e in detail_obj["videoEpisodeInfos"] if isinstance(e, dict) and e.get("isLock") is False]
+assert [e.get("episodeNo") for e in provider_free[:7]] == [1, 2, 3, 4, 5, 6, 7], "provider-style free episode parsing mismatch"
+
+play_objs = provider_extract_objects(first["rsc"], '"playVoucher"')
+play_obj = next(
+    (o for o in play_objs
+     if isinstance(o, dict)
+     and str(o.get("playVoucher", "")).startswith("http")
+     and not o.get("isLock", False)),
+    None,
+)
+assert play_obj is not None, "provider-style playVoucher extraction failed"
+assert "cfcdn.netshort.com" in play_obj["playVoucher"], "unexpected official media host"
+
+_, _, all_html = fetch_text("https://netshort.com/tr/all-episodes", timeout=25, max_bytes=5_000_000)
+all_rsc = extract_rsc(all_html)
+catalog_objs = provider_extract_objects(all_rsc, '"shortPlayNameUrl"')
+catalog = []
+for obj in catalog_objs:
+    if not isinstance(obj, dict):
+        continue
+    u = str(obj.get("shortPlayNameUrl", ""))
+    n = str(obj.get("shortPlayNameNoHL") or obj.get("shortPlayName") or "")
+    if "/episode/" in u and n:
+        catalog.append((n, u))
+catalog_unique = list(dict.fromkeys(catalog))
+print("PROVIDER_STYLE", json.dumps({
+    "detail_title": detail_obj.get("shortPlayName"),
+    "episode_count": len(detail_obj["videoEpisodeInfos"]),
+    "unlocked_count": len(provider_free),
+    "play_host": urllib.parse.urlparse(play_obj["playVoucher"]).netloc,
+    "catalog_count": len(catalog_unique),
+    "catalog_samples": catalog_unique[:5],
+}, ensure_ascii=False))
+assert len(catalog_unique) >= 10, "provider-style catalogue parsing returned too few items"
+
 print("NETSHORT_DIRECT_CONTRACT_PASS")
