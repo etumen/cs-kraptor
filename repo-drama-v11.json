@@ -1,0 +1,8 @@
+{
+  "name": "DramaDizilerim v11 Test | etumen",
+  "description": "Relay + vertical episodes + stable fallback categories",
+  "manifestVersion": 1,
+  "pluginLists": [
+    "https://raw.githubusercontent.com/etumen/cs-kraptor/refs/heads/dramadizilerim-test-20260922/plugins-drama-v11.json"
+  ]
+}

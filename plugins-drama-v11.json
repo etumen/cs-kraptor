@@ -1,0 +1,18 @@
+[
+  {
+    "url": "https://raw.githubusercontent.com/etumen/cs-kraptor/refs/heads/dramadizilerim-test-20260922/DramaDizilerim.cs3",
+    "status": 1,
+    "version": 11,
+    "name": "DramaDizilerimV11Test",
+    "internalName": "DramaDizilerim",
+    "authors": ["blackhope01", "etumen"],
+    "description": "Relay + vertical episode parser + DramaBite, StarShort, MoboReels.",
+    "fileSize": 52317,
+    "repositoryUrl": "https://github.com/etumen/cs-kraptor",
+    "language": "tr",
+    "tvTypes": ["TvSeries"],
+    "iconUrl": "https://www.google.com/s2/favicons?domain=dramadizilerim.com&sz=%size%",
+    "apiVersion": 1,
+    "fileHash": "sha256-e079242662b1a5b3307b70420ca2ea52d340775c3d4d37747893e0a44b9c717e"
+  }
+]
