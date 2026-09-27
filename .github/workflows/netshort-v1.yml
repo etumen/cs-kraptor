@@ -43,9 +43,10 @@ jobs:
 
       - name: Build NetShort cs3
         run: |
+          sed -i 's/\r$//' gradlew
           chmod +x gradlew
           ./gradlew :NetShort:make --stacktrace --no-daemon
-          find NetShort/build -type f -maxdepth 5 -print
+          find NetShort/build -maxdepth 5 -type f -print
 
       - name: Upload NetShort cs3
         uses: actions/upload-artifact@v4
