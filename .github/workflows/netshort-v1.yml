@@ -16,7 +16,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
   verify:
@@ -57,3 +57,73 @@ jobs:
           name: netshort-v1-cs3
           path: NetShort/build/**/*.cs3
           if-no-files-found: error
+
+      - name: Publish isolated NetShort v1 test repository
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          cp NetShort/build/NetShort.cs3 /tmp/NetShort.cs3
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git fetch origin netshort-v1-builds
+          rm -rf /tmp/netshort-publish
+          git worktree add --force -B netshort-v1-builds /tmp/netshort-publish origin/netshort-v1-builds
+
+          cp /tmp/NetShort.cs3 /tmp/netshort-publish/NetShort.cs3
+
+          python3 - <<'PY'
+          import hashlib, json, pathlib
+
+          root = pathlib.Path("/tmp/netshort-publish")
+          cs3 = root / "NetShort.cs3"
+          data = cs3.read_bytes()
+          sha = hashlib.sha256(data).hexdigest()
+          size = len(data)
+
+          plugins = [{
+              "url": "https://raw.githubusercontent.com/etumen/cs-kraptor/netshort-v1-builds/NetShort.cs3",
+              "status": 3,
+              "version": 1,
+              "name": "NetShort",
+              "internalName": "NetShort",
+              "authors": ["etumen"],
+              "description": "[LAB v1] NetShort resmi web kaynağı. Yalnızca NetShort tarafından kilitsiz sunulan bölümler oynatılır.",
+              "fileSize": size,
+              "repositoryUrl": "https://github.com/etumen/cs-kraptor",
+              "language": "tr",
+              "tvTypes": ["TvSeries"],
+              "iconUrl": "https://www.google.com/s2/favicons?domain=netshort.com&sz=128",
+              "apiVersion": 1,
+              "fileHash": "sha256-" + sha
+          }]
+          repo = {
+              "iconUrl": "https://www.google.com/s2/favicons?domain=netshort.com&sz=128",
+              "name": "NetShort v1 LAB | etumen",
+              "description": "NetShort v1 için izole test deposu. Production Kraptor listesinden ayrıdır.",
+              "manifestVersion": 1,
+              "pluginLists": [
+                  "https://raw.githubusercontent.com/etumen/cs-kraptor/netshort-v1-builds/plugins-netshort-v1.json"
+              ]
+          }
+
+          (root / "plugins-netshort-v1.json").write_text(
+              json.dumps(plugins, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
+          )
+          (root / "repo-netshort-v1.json").write_text(
+              json.dumps(repo, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
+          )
+
+          print(f"NETSHORT_CS3_SIZE={size}")
+          print(f"NETSHORT_CS3_SHA256={sha}")
+          PY
+
+          cd /tmp/netshort-publish
+          git add NetShort.cs3 plugins-netshort-v1.json repo-netshort-v1.json
+          if git diff --cached --quiet; then
+            echo "No publish changes."
+          else
+            git commit -m "build: publish NetShort v1 lab"
+            git push origin HEAD:netshort-v1-builds
+          fi
