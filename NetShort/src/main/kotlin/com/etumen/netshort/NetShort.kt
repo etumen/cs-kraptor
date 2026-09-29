@@ -201,7 +201,12 @@ class NetShort : MainAPI() {
 
     private suspend fun fetchCatalog(url: String): List<SearchResponse> {
         val document = app.get(url, headers = browserHeaders()).document
+        val visibleUrls = document.select("a[href*='/tr/episode/']")
+            .map { fixNetShortUrl(it.attr("href")) }
+            .toSet()
+
         return parseCatalog(extractRsc(document))
+            .filter { it.url in visibleUrls }
     }
 
     private fun parseCatalog(rsc: String): List<SearchResponse> {
