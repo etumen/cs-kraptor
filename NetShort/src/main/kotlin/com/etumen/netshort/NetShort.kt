@@ -15,7 +15,7 @@ import java.util.Locale
 
 class NetShort : MainAPI() {
     override var mainUrl = "https://netshort.com"
-    override var name = "NetShort v7 LAB"
+    override var name = "NetShort v8 LAB"
     override var lang = "tr"
     override val hasMainPage = true
     override val hasQuickSearch = false
@@ -229,7 +229,8 @@ class NetShort : MainAPI() {
                 val sub = subtitles.optJSONObject(i) ?: continue
                 val subUrl = sub.optString("url")
                 if (subUrl.isBlank()) continue
-                val subLang = sub.optString("subtitleLanguage").ifBlank { "TR" }
+                val rawSubLang = sub.optString("subtitleLanguage").ifBlank { "tr" }
+                val subLang = if (rawSubLang.startsWith("tr_", ignoreCase = true) || rawSubLang.equals("tr_TR", ignoreCase = true)) "tr" else rawSubLang
 
                 // CloudStream infers subtitle MIME type from the URL suffix.
                 // NetShort serves UTF-8 WebVTT from extensionless signed CDN URLs,
