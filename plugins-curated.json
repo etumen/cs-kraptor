@@ -149,5 +149,25 @@
     "iconUrl": "https://t3.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=http://www.dizibox.de&size=16",
     "apiVersion": 1,
     "fileHash": "sha256-7fed4461c5dd95fceb3aa6aac6741b606a0e8e7b9edbc08ab133543536ffe193"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/etumen/cs-kraptor/builds-recovered/NetShort-v10.cs3",
+    "status": 1,
+    "version": 10,
+    "name": "NetShort",
+    "internalName": "NetShort",
+    "authors": [
+      "etumen"
+    ],
+    "description": "NetShort tam Türkçe katalog, Türkçe karakter toleranslı arama, kilitsiz bölümler ve otomatik Türkçe altyazı seçimi.",
+    "fileSize": 21678,
+    "repositoryUrl": "https://github.com/etumen/cs-kraptor",
+    "language": "tr",
+    "tvTypes": [
+      "TvSeries"
+    ],
+    "iconUrl": "https://www.google.com/s2/favicons?domain=netshort.com&sz=128",
+    "apiVersion": 1,
+    "fileHash": "sha256-a59a1f3424180b1c3545e1b288b0981a981a2bb6586a046aacf482232c6334a2"
   }
 ]
