@@ -230,7 +230,18 @@ class NetShort : MainAPI() {
                 val subUrl = sub.optString("url")
                 if (subUrl.isBlank()) continue
                 val subLang = sub.optString("subtitleLanguage").ifBlank { "TR" }
-                subtitleCallback(SubtitleFile(subLang, subUrl))
+
+                // CloudStream infers subtitle MIME type from the URL suffix.
+                // NetShort serves UTF-8 WebVTT from extensionless signed CDN URLs,
+                // so mark the URL as VTT using a fragment. URL fragments are not
+                // sent to the CDN and therefore do not alter the signed request.
+                val playerSubUrl = if (subUrl.endsWith(".vtt", ignoreCase = true)) {
+                    subUrl
+                } else {
+                    "$subUrl#netshort.vtt"
+                }
+
+                subtitleCallback(SubtitleFile(subLang, playerSubUrl))
             }
         }
 
