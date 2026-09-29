@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://raw.githubusercontent.com/etumen/cs-kraptor/netshort-v1-builds/FullHDFilmizlesene-TV-v72.cs3",
+    "status": 3,
+    "version": 72,
+    "name": "FullHDFilmizlesene [TV snapshot v72]",
+    "internalName": "FullHDFilmizlesene",
+    "authors": ["Kraptor123"],
+    "description": "Exact working artifact recovered from Toshiba TV.",
+    "fileSize": 145777,
+    "repositoryUrl": "https://github.com/etumen/cs-kraptor",
+    "language": "tr",
+    "tvTypes": ["Movie"],
+    "apiVersion": 1,
+    "fileHash": "sha256-1256e6bb9d3d6ef56355441a3d2580e957a153d56abc4eaad1513bc6d95e3f31"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/etumen/cs-kraptor/netshort-v1-builds/HDFilmCehennemi-TV-v97.cs3",
+    "status": 3,
+    "version": 97,
+    "name": "HDFilmCehennemi [TV snapshot v97]",
+    "internalName": "HDFilmCehennemi",
+    "authors": ["Kraptor123"],
+    "description": "Exact working artifact recovered from Toshiba TV.",
+    "fileSize": 77589,
+    "repositoryUrl": "https://github.com/etumen/cs-kraptor",
+    "language": "tr",
+    "tvTypes": ["Movie"],
+    "apiVersion": 1,
+    "fileHash": "sha256-7669977387863e756c7333bbcd8becef8e92e912bf177d2525050002c19d6b87"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/etumen/cs-kraptor/netshort-v1-builds/FilmMakinesi-TV-v70.cs3",
+    "status": 3,
+    "version": 70,
+    "name": "FilmMakinesi [TV snapshot v70]",
+    "internalName": "FilmMakinesi",
+    "authors": ["Kraptor123"],
+    "description": "Exact working artifact recovered from Toshiba TV.",
+    "fileSize": 82344,
+    "repositoryUrl": "https://github.com/etumen/cs-kraptor",
+    "language": "tr",
+    "tvTypes": ["Movie"],
+    "apiVersion": 1,
+    "fileHash": "sha256-124d53af9cfdcc80ac15a47904588d24faa8b91726866da923bf24b8bec0711e"
+  }
+]

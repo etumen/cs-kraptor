@@ -1,0 +1,9 @@
+{
+  "iconUrl": "https://www.google.com/s2/favicons?domain=github.com&sz=128",
+  "name": "Toshiba Working Providers LAB | etumen",
+  "description": "Exact provider artifacts recovered from the working Toshiba TV.",
+  "manifestVersion": 1,
+  "pluginLists": [
+    "https://raw.githubusercontent.com/etumen/cs-kraptor/netshort-v1-builds/plugins-tv-working-providers.json"
+  ]
+}
