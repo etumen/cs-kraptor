@@ -23,19 +23,19 @@ class NetShort : MainAPI() {
 
     override val mainPage = mainPageOf(
         "$mainUrl/tr" to "NetShort • Ana Sayfa",
-        "$mainUrl/tr/all-episodes" to "NetShort • Tüm Diziler",
+        "$mainUrl/tr/drama/all-plots" to "NetShort • Tüm Diziler",
     )
 
     override suspend fun getMainPage(page: Int, request: MainPageRequest): HomePageResponse {
         val target = when {
-            request.data.endsWith("/all-episodes") && page > 1 ->
+            request.data.endsWith("/drama/all-plots") && page > 1 ->
                 "${request.data}/page/$page"
             else ->
                 request.data
         }
 
         val items = fetchCatalog(target)
-        val hasNext = request.data.endsWith("/all-episodes") && items.isNotEmpty()
+        val hasNext = request.data.endsWith("/drama/all-plots") && page < 195 && items.isNotEmpty()
 
         Log.d(name, "getMainPage page=$page url=$target items=${items.size}")
         return newHomePageResponse(request.name, items, hasNext = hasNext)
@@ -49,10 +49,14 @@ class NetShort : MainAPI() {
         // filters public catalogue pages locally; no third-party proxy API.
         val pages = listOf(
             "$mainUrl/tr",
-            "$mainUrl/tr/all-episodes",
-            "$mainUrl/tr/all-episodes/page/2",
-            "$mainUrl/tr/all-episodes/page/3",
-            "$mainUrl/tr/all-episodes/page/4",
+            "$mainUrl/tr/drama/all-plots",
+            "$mainUrl/tr/drama/all-plots/page/2",
+            "$mainUrl/tr/drama/all-plots/page/3",
+            "$mainUrl/tr/drama/all-plots/page/4",
+            "$mainUrl/tr/drama/all-plots/page/5",
+            "$mainUrl/tr/drama/all-plots/page/6",
+            "$mainUrl/tr/drama/all-plots/page/7",
+            "$mainUrl/tr/drama/all-plots/page/8",
         )
 
         val out = mutableListOf<SearchResponse>()
