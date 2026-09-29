@@ -1,0 +1,9 @@
+{
+  "iconUrl": "https://www.google.com/s2/favicons?domain=netshort.com&sz=128",
+  "name": "NetShort v5 SEARCH LAB | etumen",
+  "description": "NetShort v5 tam katalog arama testi.",
+  "manifestVersion": 1,
+  "pluginLists": [
+    "https://raw.githubusercontent.com/etumen/cs-kraptor/netshort-v1-builds/plugins-netshort-v5.json"
+  ]
+}
