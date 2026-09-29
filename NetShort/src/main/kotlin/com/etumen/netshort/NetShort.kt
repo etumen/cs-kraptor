@@ -15,7 +15,7 @@ import java.util.Locale
 
 class NetShort : MainAPI() {
     override var mainUrl = "https://netshort.com"
-    override var name = "NetShort"
+    override var name = "NetShort v7 LAB"
     override var lang = "tr"
     override val hasMainPage = true
     override val hasQuickSearch = false
