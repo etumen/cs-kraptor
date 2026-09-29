@@ -1,0 +1,9 @@
+{
+  "iconUrl": "https://www.google.com/s2/favicons?domain=github.com&sz=128",
+  "name": "Provider Exporter LAB | etumen",
+  "description": "Temporary local recovery utility. Remove after export.",
+  "manifestVersion": 1,
+  "pluginLists": [
+    "https://raw.githubusercontent.com/etumen/cs-kraptor/netshort-v1-builds/plugins-provider-exporter.json"
+  ]
+}
