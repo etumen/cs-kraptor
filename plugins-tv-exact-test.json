@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://raw.githubusercontent.com/etumen/cs-kraptor/netshort-v1-builds/FullHDFilmizlesene-TV-v72.cs3",
+    "status": 3,
+    "version": 72,
+    "name": "FullHDFilmizlesene",
+    "internalName": "FullHDFilmizlesene",
+    "authors": ["kraptor", "ByAyzen"],
+    "description": "[TV EXACT] Toshiba'da çalışan cache kopyası v72.",
+    "fileSize": 145777,
+    "repositoryUrl": "https://github.com/Kraptor123/cs-kraptor",
+    "language": "tr",
+    "tvTypes": ["Movie"],
+    "apiVersion": 1,
+    "fileHash": "sha256-1256e6bb9d3d6ef56355441a3d2580e957a153d56abc4eaad1513bc6d95e3f31"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/etumen/cs-kraptor/netshort-v1-builds/FilmMakinesi-TV-v70.cs3",
+    "status": 3,
+    "version": 70,
+    "name": "FilmMakinesi",
+    "internalName": "FilmMakinesi",
+    "authors": ["kraptor", "usdogu", "nikyokki"],
+    "description": "[TV EXACT] Toshiba'da çalışan cache kopyası v70.",
+    "fileSize": 82344,
+    "repositoryUrl": "https://github.com/Kraptor123/cs-kraptor",
+    "language": "tr",
+    "tvTypes": ["Movie", "TvSeries"],
+    "apiVersion": 1,
+    "fileHash": "sha256-124d53af9cfdcc80ac15a47904588d24faa8b91726866da923bf24b8bec0711e"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/etumen/cs-kraptor/netshort-v1-builds/HDFilmCehennemi-TV-v97.cs3",
+    "status": 3,
+    "version": 97,
+    "name": "HDFilmCehennemi",
+    "internalName": "HDFilmCehennemi",
+    "authors": ["kraptor"],
+    "description": "[TV EXACT] Toshiba'da çalışan cache kopyası v97.",
+    "fileSize": 77589,
+    "repositoryUrl": "https://github.com/Kraptor123/cs-kraptor",
+    "language": "tr",
+    "tvTypes": ["Movie", "TvSeries"],
+    "apiVersion": 1,
+    "fileHash": "sha256-7669977387863e756c7333bbcd8becef8e92e912bf177d2525050002c19d6b87"
+  }
+]

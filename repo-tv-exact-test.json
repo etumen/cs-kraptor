@@ -1,0 +1,8 @@
+{
+  "name": "Kraptor TV EXACT TEST | etumen",
+  "description": "Toshiba TV'den birebir çıkarılan çalışan provider cache test deposu.",
+  "manifestVersion": 1,
+  "pluginLists": [
+    "https://raw.githubusercontent.com/etumen/cs-kraptor/netshort-v1-builds/plugins-tv-exact-test.json"
+  ]
+}
