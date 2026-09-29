@@ -1404,16 +1404,16 @@
     "fileHash": "sha256-f85d9942251c819a673718b3c82475ed2302301ca18b8231428072ad57c26192"
   },
   {
-    "url": "https://raw.githubusercontent.com/etumen/cs-kraptor/builds-recovered/NetShort-v4.cs3",
+    "url": "https://raw.githubusercontent.com/etumen/cs-kraptor/builds-recovered/NetShort-v5.cs3",
     "status": 1,
-    "version": 4,
+    "version": 5,
     "name": "NetShort",
     "internalName": "NetShort",
     "authors": [
       "etumen"
     ],
-    "description": "NetShort resmi Türkçe kataloğu: 195 sayfa, binlerce kısa dizi; NetShort tarafından kilitsiz sunulan bölümler oynatılır.",
-    "fileSize": 19037,
+    "description": "NetShort resmi Türkçe kataloğu ve tam katalog araması; Türkçe karakter toleranslı arama desteklenir. Yalnızca kilitsiz bölümler oynatılır.",
+    "fileSize": 21474,
     "repositoryUrl": "https://github.com/etumen/cs-kraptor",
     "language": "tr",
     "tvTypes": [
@@ -1421,6 +1421,6 @@
     ],
     "iconUrl": "https://www.google.com/s2/favicons?domain=netshort.com&sz=128",
     "apiVersion": 1,
-    "fileHash": "sha256-1a61a19325f881c204c58b2781703d19872ac4dd116323b7a38a997d97c3de9e"
+    "fileHash": "sha256-6e06988ac78edd8fb98c5290163d98ceffa8d909b95f69322d8e6dfe586c8fba"
   }
 ]
