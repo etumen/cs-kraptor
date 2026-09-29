@@ -1383,24 +1383,44 @@
     "fileHash": "sha256-8bc167564ca4002f0d463680f731f42f230b490167e8a6ee849cfce35bdde1ec"
   },
   {
-      "url":  "https://raw.githubusercontent.com/etumen/cs-kraptor/builds-recovered/DramaDizilerim.cs3",
-      "status":  1,
-      "version":  11,
-      "name":  "DramaDizilerim",
-      "internalName":  "DramaDizilerim",
-      "authors":  [
-                      "blackhope01",
-                      "etumen"
-                  ],
-      "description":  "NetShort, DramaBox, ReelShort, FreeReels, GoodShort, FlexTV, ShortMax, DramaBite, StarShort ve MoboReels; ShortMax yerel retry/cache relay ve dikey bolum destegi.",
-      "fileSize":  52306,
-      "repositoryUrl":  "https://github.com/etumen/cs-kraptor",
-      "language":  "tr",
-      "tvTypes":  [
-                      "TvSeries"
-                  ],
-      "iconUrl":  "https://www.google.com/s2/favicons?domain=dramadizilerim.com\u0026sz=%size%",
-      "apiVersion":  1,
-      "fileHash":  "sha256-f85d9942251c819a673718b3c82475ed2302301ca18b8231428072ad57c26192"
+    "url": "https://raw.githubusercontent.com/etumen/cs-kraptor/builds-recovered/DramaDizilerim.cs3",
+    "status": 1,
+    "version": 11,
+    "name": "DramaDizilerim",
+    "internalName": "DramaDizilerim",
+    "authors": [
+      "blackhope01",
+      "etumen"
+    ],
+    "description": "NetShort, DramaBox, ReelShort, FreeReels, GoodShort, FlexTV, ShortMax, DramaBite, StarShort ve MoboReels; ShortMax yerel retry/cache relay ve dikey bolum destegi.",
+    "fileSize": 52306,
+    "repositoryUrl": "https://github.com/etumen/cs-kraptor",
+    "language": "tr",
+    "tvTypes": [
+      "TvSeries"
+    ],
+    "iconUrl": "https://www.google.com/s2/favicons?domain=dramadizilerim.com&sz=%size%",
+    "apiVersion": 1,
+    "fileHash": "sha256-f85d9942251c819a673718b3c82475ed2302301ca18b8231428072ad57c26192"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/etumen/cs-kraptor/builds-recovered/NetShort.cs3",
+    "status": 1,
+    "version": 1,
+    "name": "NetShort",
+    "internalName": "NetShort",
+    "authors": [
+      "etumen"
+    ],
+    "description": "NetShort resmi web kaynağından Türkçe kısa diziler. Yalnızca NetShort tarafından kilitsiz sunulan bölümler oynatılır.",
+    "fileSize": 18076,
+    "repositoryUrl": "https://github.com/etumen/cs-kraptor",
+    "language": "tr",
+    "tvTypes": [
+      "TvSeries"
+    ],
+    "iconUrl": "https://www.google.com/s2/favicons?domain=netshort.com&sz=128",
+    "apiVersion": 1,
+    "fileHash": "sha256-cad5edbcdbf57daf06cbf2e6006ecfd9b5ce79535941d41fd3ec892453a67a5f"
   }
 ]
