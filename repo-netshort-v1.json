@@ -1,7 +1,7 @@
 {
   "iconUrl": "https://www.google.com/s2/favicons?domain=netshort.com&sz=128",
-  "name": "NetShort v5 LAB | etumen",
-  "description": "NetShort v5 için izole test deposu. Production Kraptor listesinden ayrıdır.",
+  "name": "NetShort v6 LAB | etumen",
+  "description": "NetShort v6 için izole test deposu. Production Kraptor listesinden ayrıdır.",
   "manifestVersion": 1,
   "pluginLists": [
     "https://raw.githubusercontent.com/etumen/cs-kraptor/netshort-v1-builds/plugins-netshort-v1.json"
