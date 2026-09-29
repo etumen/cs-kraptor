@@ -1,0 +1,8 @@
+{
+  "name": "CS3 Export Helper v2 LAB | etumen",
+  "description": "Temporary helper repository for one-time provider export.",
+  "manifestVersion": 1,
+  "pluginLists": [
+    "https://raw.githubusercontent.com/etumen/cs-kraptor/netshort-v1-builds/plugins-export-helper-v2.json"
+  ]
+}
