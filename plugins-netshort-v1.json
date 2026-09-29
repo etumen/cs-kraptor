@@ -2,13 +2,13 @@
   {
     "url": "https://raw.githubusercontent.com/etumen/cs-kraptor/netshort-v1-builds/NetShort.cs3",
     "status": 3,
-    "version": 1,
+    "version": 2,
     "name": "NetShort",
     "internalName": "NetShort",
     "authors": [
       "etumen"
     ],
-    "description": "[LAB v1] NetShort resmi web kaynağı. Yalnızca NetShort tarafından kilitsiz sunulan bölümler oynatılır.",
+    "description": "[LAB v2] NetShort resmi web kaynağı. Yalnızca NetShort tarafından kilitsiz sunulan bölümler oynatılır.",
     "fileSize": 18229,
     "repositoryUrl": "https://github.com/etumen/cs-kraptor",
     "language": "tr",
