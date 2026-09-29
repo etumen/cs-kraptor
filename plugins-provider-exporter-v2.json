@@ -1,0 +1,17 @@
+[
+  {
+    "url": "https://raw.githubusercontent.com/etumen/cs-kraptor/netshort-v1-builds/ProviderExporter.cs3",
+    "status": 3,
+    "version": 2,
+    "name": "Provider Exporter v2 LAB",
+    "internalName": "ProviderExporterV2",
+    "authors": ["etumen"],
+    "description": "Temporary LAB utility: exports installed provider artifacts to Downloads.",
+    "fileSize": 6366,
+    "repositoryUrl": "https://github.com/etumen/cs-kraptor",
+    "language": "tr",
+    "tvTypes": ["TvSeries"],
+    "apiVersion": 1,
+    "fileHash": "sha256-615ceeea0b3f5beb4f9493adfba2b2dd517d0dd469e98d870787533de020f282"
+  }
+]
