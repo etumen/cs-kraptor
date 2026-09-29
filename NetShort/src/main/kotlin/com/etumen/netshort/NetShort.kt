@@ -10,6 +10,8 @@ import org.json.JSONArray
 import org.json.JSONObject
 import org.jsoup.nodes.Document
 import java.net.URI
+import java.text.Normalizer
+import java.util.Locale
 
 class NetShort : MainAPI() {
     override var mainUrl = "https://netshort.com"
@@ -21,6 +23,12 @@ class NetShort : MainAPI() {
 
     private val userAgent =
         "Mozilla/5.0 (Linux; Android 10; Android TV) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140 Safari/537.36"
+
+    private val searchIndexUrl =
+        "https://raw.githubusercontent.com/etumen/cs-kraptor/builds-recovered/netshort-catalog.json"
+    private var searchIndexCache: List<SearchResponse>? = null
+    private var searchIndexLoadedAt = 0L
+    private val searchIndexTtlMs = 6 * 60 * 60 * 1000L
 
     override val mainPage = mainPageOf(
         "$mainUrl/tr" to "NetShort • Ana Sayfa",
@@ -43,31 +51,79 @@ class NetShort : MainAPI() {
     }
 
     override suspend fun search(query: String): List<SearchResponse> {
-        val needle = query.trim()
+        val needle = normalizeSearchText(query.trim())
         if (needle.isEmpty()) return emptyList()
 
-        // NetShort search is client-side. v1 stays on official NetShort pages and
-        // filters public catalogue pages locally; no third-party proxy API.
-        val pages = listOf(
-            "$mainUrl/tr",
-            "$mainUrl/tr/drama/all-plots",
-            "$mainUrl/tr/drama/all-plots/page/2",
-            "$mainUrl/tr/drama/all-plots/page/3",
-            "$mainUrl/tr/drama/all-plots/page/4",
-            "$mainUrl/tr/drama/all-plots/page/5",
-            "$mainUrl/tr/drama/all-plots/page/6",
-            "$mainUrl/tr/drama/all-plots/page/7",
-            "$mainUrl/tr/drama/all-plots/page/8",
-        )
+        val index = loadSearchIndex()
+        return index
+            .mapNotNull { item ->
+                val title = normalizeSearchText(item.name)
+                if (!title.contains(needle)) return@mapNotNull null
 
-        val out = mutableListOf<SearchResponse>()
-        for (url in pages) {
-            val pageItems = runCatching { fetchCatalog(url) }.getOrDefault(emptyList())
-            out += pageItems.filter { it.name.contains(needle, ignoreCase = true) }
-            if (out.size >= 40) break
+                val rank = when {
+                    title == needle -> 0
+                    title.startsWith(needle) -> 1
+                    title.split(' ').any { it.startsWith(needle) } -> 2
+                    else -> 3
+                }
+                rank to item
+            }
+            .sortedWith(
+                compareBy<Pair<Int, SearchResponse>> { it.first }
+                    .thenBy { it.second.name.length }
+                    .thenBy { it.second.name }
+            )
+            .map { it.second }
+            .distinctBy { it.url }
+            .take(80)
+    }
+
+    private suspend fun loadSearchIndex(): List<SearchResponse> {
+        val now = System.currentTimeMillis()
+        searchIndexCache?.takeIf { now - searchIndexLoadedAt < searchIndexTtlMs }?.let {
+            return it
         }
 
-        return out.distinctBy { it.url }.take(40)
+        val remote = runCatching {
+            val payload = app.get(searchIndexUrl, headers = browserHeaders()).text
+            val items = JSONObject(payload).optJSONArray("items") ?: JSONArray()
+            buildList {
+                for (i in 0 until items.length()) {
+                    val obj = items.optJSONObject(i) ?: continue
+                    val title = obj.optString("name").trim()
+                    val url = obj.optString("url").trim()
+                    if (title.isBlank() || url.isBlank()) continue
+
+                    add(
+                        newTvSeriesSearchResponse(title, url, TvType.TvSeries) {
+                            this.posterUrl = obj.optString("poster").ifBlank { null }
+                        }
+                    )
+                }
+            }
+        }.getOrElse {
+            Log.w(name, "search index unavailable, falling back to visible catalogue", it)
+            fetchCatalog("$mainUrl/tr/drama/all-plots")
+        }
+
+        searchIndexCache = remote
+        searchIndexLoadedAt = now
+        Log.d(name, "search index loaded items=${remote.size}")
+        return remote
+    }
+
+    private fun normalizeSearchText(value: String): String {
+        val lower = value.lowercase(Locale("tr", "TR"))
+        val normalized = Normalizer.normalize(lower, Normalizer.Form.NFD)
+            .replace(Regex("""\p{Mn}+"""), "")
+
+        return normalized
+            .replace('ı', 'i')
+            .replace('ş', 's')
+            .replace('ç', 'c')
+            .replace('ğ', 'g')
+            .replace('ö', 'o')
+            .replace('ü', 'u')
     }
 
     override suspend fun load(url: String): LoadResponse? {
