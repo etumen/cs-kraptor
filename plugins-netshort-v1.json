@@ -9,7 +9,7 @@
       "etumen"
     ],
     "description": "[LAB v3] NetShort resmi web kaynağı. Yalnızca NetShort tarafından kilitsiz sunulan bölümler oynatılır.",
-    "fileSize": 18546,
+    "fileSize": 19037,
     "repositoryUrl": "https://github.com/etumen/cs-kraptor",
     "language": "tr",
     "tvTypes": [
@@ -17,6 +17,6 @@
     ],
     "iconUrl": "https://www.google.com/s2/favicons?domain=netshort.com&sz=128",
     "apiVersion": 1,
-    "fileHash": "sha256-ab29dae594cb509b3cfdcad2833289728909ee497484da889d02d2928795b953"
+    "fileHash": "sha256-64e4cb5c5483da176e9bc833826dc067e9e5585cae5f5fa0f8fe3bc3f8aeebf2"
   }
 ]
