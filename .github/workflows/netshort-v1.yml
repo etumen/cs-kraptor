@@ -1,4 +1,4 @@
-name: NetShort v2 probe
+name: NetShort v3 probe
 
 on:
   push:
@@ -54,11 +54,11 @@ jobs:
       - name: Upload NetShort cs3
         uses: actions/upload-artifact@v4
         with:
-          name: netshort-v2-cs3
+          name: netshort-v3-cs3
           path: NetShort/build/**/*.cs3
           if-no-files-found: error
 
-      - name: Publish isolated NetShort v2 test repository
+      - name: Publish isolated NetShort v3 test repository
         shell: bash
         run: |
           set -euo pipefail
@@ -85,11 +85,11 @@ jobs:
           plugins = [{
               "url": "https://raw.githubusercontent.com/etumen/cs-kraptor/netshort-v1-builds/NetShort.cs3",
               "status": 3,
-              "version": 2,
+              "version": 3,
               "name": "NetShort",
               "internalName": "NetShort",
               "authors": ["etumen"],
-              "description": "[LAB v2] NetShort resmi web kaynağı. Yalnızca NetShort tarafından kilitsiz sunulan bölümler oynatılır.",
+              "description": "[LAB v3] NetShort resmi web kaynağı. Yalnızca NetShort tarafından kilitsiz sunulan bölümler oynatılır.",
               "fileSize": size,
               "repositoryUrl": "https://github.com/etumen/cs-kraptor",
               "language": "tr",
@@ -100,8 +100,8 @@ jobs:
           }]
           repo = {
               "iconUrl": "https://www.google.com/s2/favicons?domain=netshort.com&sz=128",
-              "name": "NetShort v2 LAB | etumen",
-              "description": "NetShort v2 için izole test deposu. Production Kraptor listesinden ayrıdır.",
+              "name": "NetShort v3 LAB | etumen",
+              "description": "NetShort v3 için izole test deposu. Production Kraptor listesinden ayrıdır.",
               "manifestVersion": 1,
               "pluginLists": [
                   "https://raw.githubusercontent.com/etumen/cs-kraptor/netshort-v1-builds/plugins-netshort-v1.json"
@@ -124,6 +124,6 @@ jobs:
           if git diff --cached --quiet; then
             echo "No publish changes."
           else
-            git commit -m "build: publish NetShort v2 lab"
+            git commit -m "build: publish NetShort v3 lab"
             git push origin HEAD:netshort-v1-builds
           fi
