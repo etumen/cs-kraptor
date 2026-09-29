@@ -9,6 +9,7 @@ import com.lagradost.cloudstream3.utils.newExtractorLink
 import org.json.JSONArray
 import org.json.JSONObject
 import org.jsoup.nodes.Document
+import java.net.URI
 
 class NetShort : MainAPI() {
     override var mainUrl = "https://netshort.com"
@@ -149,9 +150,11 @@ class NetShort : MainAPI() {
         subtitleCallback: (SubtitleFile) -> Unit,
         callback: (ExtractorLink) -> Unit,
     ): Boolean {
+        val safeData = asciiUrl(data)
+        val safeSeriesUrl = asciiUrl(normalizeSeriesUrl(data))
         val document = app.get(
-            data,
-            headers = browserHeaders(referer = normalizeSeriesUrl(data)),
+            safeData,
+            headers = browserHeaders(referer = safeSeriesUrl),
         ).document
         val rsc = extractRsc(document)
 
@@ -182,11 +185,11 @@ class NetShort : MainAPI() {
                 url = playUrl,
                 type = ExtractorLinkType.VIDEO,
             ) {
-                this.referer = data
+                this.referer = safeData
                 this.quality = Qualities.Unknown.value
                 this.headers = mapOf(
                     "User-Agent" to userAgent,
-                    "Referer" to data,
+                    "Referer" to safeData,
                     "Origin" to mainUrl,
                     "Accept" to "*/*",
                 )
@@ -227,8 +230,11 @@ class NetShort : MainAPI() {
     private fun browserHeaders(referer: String = "$mainUrl/tr") = mapOf(
         "User-Agent" to userAgent,
         "Accept-Language" to "tr-TR,tr;q=0.9,en;q=0.7",
-        "Referer" to referer,
+        "Referer" to asciiUrl(referer),
     )
+
+    private fun asciiUrl(url: String): String =
+        runCatching { URI(url).toASCIIString() }.getOrDefault(url)
 
     private fun fixNetShortUrl(raw: String): String {
         return when {
