@@ -1,9 +1,9 @@
 {
   "iconUrl": "https://www.google.com/s2/favicons?domain=netshort.com&sz=128",
-  "name": "NetShort v7 SUBTITLE + AUTONEXT LAB | etumen",
-  "description": "NetShort v7 temiz test deposu: mevcut oynatma, altyazı ve bölüm zinciri doğrulaması.",
+  "name": "NetShort v8 AUTOSUB LAB | etumen",
+  "description": "NetShort v8 test deposu: Türkçe altyazı otomatik seçim düzeltmesi + mevcut oynatma/bölüm zinciri doğrulaması.",
   "manifestVersion": 1,
   "pluginLists": [
-    "https://raw.githubusercontent.com/etumen/cs-kraptor/netshort-v1-builds/plugins-netshort-v7.json"
+    "https://raw.githubusercontent.com/etumen/cs-kraptor/netshort-v1-builds/plugins-netshort-v8.json"
   ]
 }

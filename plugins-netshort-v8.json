@@ -1,0 +1,22 @@
+[
+  {
+    "url": "https://raw.githubusercontent.com/etumen/cs-kraptor/netshort-v1-builds/NetShort-v8.cs3",
+    "status": 3,
+    "version": 8,
+    "name": "NetShort v8 LAB",
+    "internalName": "NetShort",
+    "authors": [
+      "etumen"
+    ],
+    "description": "[LAB v8] NetShort playback + episode-chain validation. Turkish subtitle tag normalized for CloudStream auto-select.",
+    "fileSize": 21689,
+    "repositoryUrl": "https://github.com/etumen/cs-kraptor",
+    "language": "tr",
+    "tvTypes": [
+      "TvSeries"
+    ],
+    "iconUrl": "https://www.google.com/s2/favicons?domain=netshort.com&sz=128",
+    "apiVersion": 1,
+    "fileHash": "sha256-9db7828d6a259badf30e7e931d51cf49df50cb18b7495e43a1cd00bc20cbc259"
+  }
+]
