@@ -1,9 +1,9 @@
 {
   "iconUrl": "https://www.google.com/s2/favicons?domain=netshort.com&sz=128",
-  "name": "NetShort v6 SUBTITLE LAB | etumen",
-  "description": "NetShort v6 UTF-8 WebVTT subtitle test.",
+  "name": "NetShort v7 SUBTITLE + AUTONEXT LAB | etumen",
+  "description": "NetShort v7 UTF-8 subtitle relay ve otomatik sonraki bölüm doğrulama deposu.",
   "manifestVersion": 1,
   "pluginLists": [
-    "https://raw.githubusercontent.com/etumen/cs-kraptor/netshort-v1-builds/plugins-netshort-v6.json"
+    "https://raw.githubusercontent.com/etumen/cs-kraptor/netshort-v1-builds/plugins-netshort-v7.json"
   ]
 }
