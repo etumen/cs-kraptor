@@ -6,13 +6,13 @@
     "name": "NetShort",
     "internalName": "NetShort",
     "authors": ["etumen"],
-    "description": "[LAB v7] UTF-8 subtitle relay + NetShort episode-chain validation.",
-    "fileSize": 29045,
+    "description": "[LAB v7 CLEAN] NetShort playback + episode-chain validation. Subtitle encoding uses CloudStream UTF-8 setting.",
+    "fileSize": 21604,
     "repositoryUrl": "https://github.com/etumen/cs-kraptor",
     "language": "tr",
     "tvTypes": ["TvSeries"],
     "iconUrl": "https://www.google.com/s2/favicons?domain=netshort.com&sz=128",
     "apiVersion": 1,
-    "fileHash": "sha256-2c17165b45fd1c9bf98fc3b6887d6a1b41e906c988313488b35b58f0d84b0d56"
+    "fileHash": "sha256-8f20d076681d009a634587c624cd98a47882e78e391c3a7d52d896caff4e0fa9"
   }
 ]
