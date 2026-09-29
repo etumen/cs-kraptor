@@ -1,0 +1,22 @@
+[
+  {
+    "url": "https://raw.githubusercontent.com/etumen/cs-kraptor/netshort-v1-builds/NetShort-v6.cs3",
+    "status": 3,
+    "version": 6,
+    "name": "NetShort",
+    "internalName": "NetShort",
+    "authors": [
+      "etumen"
+    ],
+    "description": "[LAB v6] UTF-8 WebVTT subtitle MIME fix.",
+    "fileSize": 21604,
+    "repositoryUrl": "https://github.com/etumen/cs-kraptor",
+    "language": "tr",
+    "tvTypes": [
+      "TvSeries"
+    ],
+    "iconUrl": "https://www.google.com/s2/favicons?domain=netshort.com&sz=128",
+    "apiVersion": 1,
+    "fileHash": "sha256-63ea5f0533769ebc5ff5bd908f38d5d6900f253ee1dd708a77329c8cafc454b5"
+  }
+]
